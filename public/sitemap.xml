@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://rstudio.github.io/distill/</loc>
+    <lastmod>2020-12-29T18:01:46+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/distill/institute.html</loc>
+    <lastmod>2020-12-31T14:07:07+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/distill/master.html</loc>
+    <lastmod>2020-12-31T15:00:30+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/distill/optional.html</loc>
+    <lastmod>2020-12-31T14:55:38+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/distill/required.html</loc>
+    <lastmod>2020-12-29T18:15:23+08:00</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,41 @@
+name: "master-oceano"
+title: "Master Oceanography"
+theme: theme.css
+favicon: images/logo.png
+base_url: https://rstudio.github.io/distill
+repository_url: https://github.com/rstudio/distill
+creative_commons: CC BY
+output_dir: "."
+navbar:
+  logo:
+    image: images/logo.png
+    href: http://www.oc.ntu.edu.tw/oceng/
+  search: true
+  source_url: true
+  right:
+    - text: "The Institute"
+      href: institute.html
+    - text: "Master Program"
+      href: master.html
+    - text: "Courses"
+      menu:
+        - text: "Required"
+          href: required.html
+        - text: "Optional"
+          href: optional.html
+        - text: "---"
+        - text: "External"
+          href: external.html
+    - text: "How to Apply"
+      menu:
+        - text: "Publishing Articles"
+          href: publish_article.html
+        - text: "Publishing Websites"
+          href: publish_website.html
+    - text: "Useful Links"
+      href: advices.html
+output:
+  distill::distill_article:
+    css: styles.css
+    highlight: rstudio
+    toc: true

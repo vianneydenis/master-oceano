@@ -1,0 +1,32 @@
+---
+title: "Required classes"
+description: |
+  List of required courses in English and by division
+---
+
+## Core Curriculum (all divisions)
+
+<details>
+<summary><span style="color:#1D5287">**Introduction to Marine Biology**</span> ([OCEAN 5038]()) - 1 credit</summary>
+**Description**: This course introduces all kinds of marine organisms including phytoplankton, zooplankton, marcoagle, invertebrae, vertebrae and various and ecosystem including tidal zones, estuaries, continental shelf, coral reefs, pelgaic ocean, and deep sea. 
+
+**Instructor**: Jen Chieh SHIAO
+</details>
+
+
+## Marine Biology and Fisheries
+
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 2**</span> ([OCEAN 8009]()) - 2 credits</summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: Vianney DENIS; Jen Chieh SHIAO; Wei-Jen CHEN; Yi-Jay CHANG
+</details>
+
+
+## Marine Geology & Geosphysics
+
+## Chemical Oceanography
+
+## Physical Oceanography
