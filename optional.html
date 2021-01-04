@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,16 +32,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -50,9 +48,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; } /* Alert */
 code span.an { color: #008000; } /* Annotation */
@@ -2392,7 +2390,7 @@ How to Apply
 <h1>Optional courses</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>List of optional courses in English and by topic</p></p>
+<p>List of optional courses in English and by topic</p>
 </div>
 
 
@@ -2403,6 +2401,7 @@ How to Apply
 <ul>
 <li><a href="#general-topics">General Topics</a></li>
 <li><a href="#marine-biology-and-ecology">Marine Biology and Ecology</a></li>
+<li><a href="#fisheries">Fisheries</a></li>
 <li><a href="#marine-data-analysis">Marine Data Analysis</a></li>
 <li><a href="#marine-geology">Marine Geology</a></li>
 <li><a href="#marine-chemistry">Marine Chemistry</a></li>
@@ -2419,37 +2418,71 @@ How to Apply
 <h2 id="marine-biology-and-ecology">Marine Biology and Ecology</h2>
 <p>Those courses …</p>
 <details>
-<summary><span style="color:#1D5287"><strong>Field Course in Coral Reef Ecology</strong></span> (<a href="">OCEAN 7194</a>) - 3 credits</summary> <strong>Description</strong>: this course is designed to provide the student with a solid foundation in ecological concepts, techniques and experimental design in field research as applied to coral reef ecosystems. It consists of a one-week field-based research at a marine research station in Taiwan. To have attended Ocean 5097 is strongly recommended before joining this course. Alternatively, solid knowledge of coral reefs and the environmental challenges they are currently facing is requested. The course will begin with a general introduction of the coral reefs and how they are influenced by global and local factors. It will quickly narrow down to the context of Taiwan by introducing the local context: known diversity, past disturbances, and on-going research. The major reef biota will be discussed in terms of their ecological requirements, roles on the reef and their overall impact. Methods in ecological monitoring and sampling will be discussed and applied on the field and will serve as a baseline for a future long-term ecological assessment. Data analysis will consist of examining and comparing structure of benthic assemblages among sites and depths (basic knowledge of R software is recommended). Students are asked to provide a poster (electronic format) summarizing their work a maximum of one month after the last day on the field. <strong>Instructor</strong>: Vianney DENIS
+<p><summary><span style="color:#1D5287"><strong>Field Course in Coral Reef Ecology</strong></span> (<a href="">OCEAN 7194</a>) - 3 credits</summary> <strong>Description</strong>: this course is designed to provide the student with a solid foundation in ecological concepts, techniques and experimental design in field research as applied to coral reef ecosystems. It consists of a one-week field-based research at a marine research station in Taiwan. To have attended Ocean 5097 is strongly recommended before joining this course. Alternatively, solid knowledge of coral reefs and the environmental challenges they are currently facing is requested. The course will begin with a general introduction of the coral reefs and how they are influenced by global and local factors. It will quickly narrow down to the context of Taiwan by introducing the local context: known diversity, past disturbances, and on-going research. The major reef biota will be discussed in terms of their ecological requirements, roles on the reef and their overall impact. Methods in ecological monitoring and sampling will be discussed and applied on the field and will serve as a baseline for a future long-term ecological assessment. Data analysis will consist of examining and comparing structure of benthic assemblages among sites and depths (basic knowledge of R software is recommended). Students are asked to provide a poster (electronic format) summarizing their work a maximum of one month after the last day on the field.</p>
+<strong>Instructor</strong>: Vianney DENIS
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Coral Reef Ecosystem in a Changing World</strong></span> (<a href="">OCEAN 5097</a>) - 3 credits</summary> <strong>Description</strong>: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem. <strong>Instructor</strong>: Vianney DENIS
+<p><summary><span style="color:#1D5287"><strong>Coral Reef Ecosystem in a Changing World</strong></span> (<a href="">OCEAN 5097</a>) - 3 credits</summary> <strong>Description</strong>: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem.</p>
+<strong>Instructor</strong>: Vianney DENIS
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Special topics on Ichthyology</strong></span> (<a href="">OCEAN 5067</a>) - 2 credits</summary> <strong>Description</strong>: This course provides advanced information on fishes. The contents incorporate the latest advances in the biology of fishes, mainly covering taxonomy, physiology, biogeography, ecology, behavior and conservation of fishes. <strong>Instructor</strong>: Jen-Chieh SHIAO
+<p><summary><span style="color:#1D5287"><strong>Special topics on Ichthyology</strong></span> (<a href="">OCEAN 5067</a>) - 2 credits</summary> <strong>Description</strong>: This course provides advanced information on fishes. The contents incorporate the latest advances in the biology of fishes, mainly covering taxonomy, physiology, biogeography, ecology, behavior and conservation of fishes.</p>
+<strong>Instructor</strong>: Jen-Chieh SHIAO
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Special Topic-fish Physiology and Ecology (1)</strong></span> (<a href="">OCEAN 7141</a>) - 1 credits</summary> <strong>Description</strong>: In this course, students are requested to read the scientific papers related to fish physiology and ecology and brief present the paper contents. Other students are requested to join the discussion based on the paper presented by the students. <strong>Instructor</strong>: Jen-Chieh SHIAO
+<p><summary><span style="color:#1D5287"><strong>Special Topic-fish Physiology and Ecology (1)</strong></span> (<a href="">OCEAN 7141</a>) - 1 credits</summary> <strong>Description</strong>: In this course, students are requested to read the scientific papers related to fish physiology and ecology and brief present the paper contents. Other students are requested to join the discussion based on the paper presented by the students.</p>
+<strong>Instructor</strong>: Jen-Chieh SHIAO
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Special Topic-fish Physiology and Ecology (2)</strong></span> (<a href="">OCEAN 7144</a>) - 1 credits</summary> <strong>Description</strong>: In this course, students are requested to read the scientific papers related to fish physiology and ecology and brief present the paper contents. Other students are requested to join the discussion based on the paper presented by the students. <strong>Instructor</strong>: Jen-Chieh SHIAO
+<p><summary><span style="color:#1D5287"><strong>Special Topic-fish Physiology and Ecology (2)</strong></span> (<a href="">OCEAN 7144</a>) - 1 credits</summary> <strong>Description</strong>: In this course, students are requested to read the scientific papers related to fish physiology and ecology and brief present the paper contents. Other students are requested to join the discussion based on the paper presented by the students.</p>
+<strong>Instructor</strong>: Jen-Chieh SHIAO
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Fish Sclerochronology</strong></span> (<a href="">OCEAN 5048</a>) - 1 credits</summary> <strong>Description</strong>: Students taking this course will learn the knowledge of fish hard structure and their application in age, growth, life history and the basic concepts of aged based fishery stock assessments. <strong>Instructor</strong>: Jen-Chieh SHIAO
+<p><summary><span style="color:#1D5287"><strong>Fish Sclerochronology</strong></span> (<a href="">OCEAN 5048</a>) - 1 credit</p>
+<p></summary> <strong>Description</strong>: Students taking this course will learn the knowledge of fish hard structure and their application in age, growth, life history and the basic concepts of aged based fishery stock assessments.</p>
+<strong>Instructor</strong>: Jen-Chieh SHIAO
+</details>
+<h2 id="fisheries">Fisheries</h2>
+<details>
+<p><summary><span style="color:#1D5287"><strong>Population Ecology and Sustainable Fisheries Resources</strong></span> (<a href="">OCEAN 5105</a>) - 3 credits</summary> <strong>Description</strong>: Understanding dynamics and fluctuations of natural fish populations requires a diverse set of skills. Through this course students will learn knowledge of fish biology and field and quantitative methodologies for exploring population dynamics of both freshwater and marine fishes. In addition, students will broaden understanding of fisheries and natural resource management (through lectures and text book readings), practice and develop critical thinking skills (through in-class discussions and a group presentation), and learn how to read and interpret the scientific literature in fish ecology and fisheries science (through discussing the primary literature). Ultimately, this course will provide knowledge and training on formulating research questions and tackling problems in management of fisheries and other natural resources in a changing world.</p>
+<strong>Instructor</strong>: Hui-Yu WANG; Yi-Jay CHANG
+</details>
+<details>
+<p><summary><span style="color:#1D5287"><strong>Special Topic-Fisheries Stock Assessment (I)</strong></span> (<a href="">OCEAN 5111</a>) - 1 credit</summary> <strong>Description</strong>: These two courses (one for each semester) were designed for graduate students to keep up to date with the latest research topics and developments in fisheries stock assessment. The course materials are mainly based on published papers in international journals. For example, papers related to fish population dynamics, stock assessment, fishery management, statistical models, and computer simulations are the primary topics of this course. Selected students give a weekly PowerPoint presentation of a paper and lead a group discussion with the professor and other students.</p>
+<strong>Instructor</strong>: Yi-Jay CHANG
+</details>
+<details>
+<p><summary><span style="color:#1D5287"><strong>Special Topic-Fisheries Stock Assessment (II)</strong></span> (<a href="">OCEAN 5109</a>) - 1 credit</summary> <strong>Description</strong>: These two courses (one for each semester) were designed for graduate students to keep up to date with the latest research topics and developments in fisheries stock assessment. The course materials are mainly based on published papers in international journals. For example, papers related to fish population dynamics, stock assessment, fishery management, statistical models, and computer simulations are the primary topics of this course. Selected students give a weekly PowerPoint presentation of a paper and lead a group discussion with the professor and other students.</p>
+<strong>Instructor</strong>: Yi-Jay CHANG
+</details>
+<details>
+<p><summary><span style="color:#1D5287"><strong>Advanced Quantitative Methods in Fisheries Stock Assessment</strong></span> (<a href="">Ocean 7178</a>) - 3 credits</summary></p>
+<p><strong>Description</strong>: This course introduces advanced quantitative methods in fisheries stock assessment, including decision analysis to evaluate alternative management actions, Bayesian state-space modelling, meta-analysis, and integrated analysis. The course draws examples from real fisheries in the world and provides student broad experience with various fishery data and fish biology. The goals of this course are to train the students to be familiar with methods in fish population dynamics and stock assessment and proficient in parameter estimation, as well as the uncertainty, of an exploited fish population, and evaluation of harvest restrictions for fisheries management problems by using various computer programs and tools.</p>
+<strong>Instructor</strong>: Yi-Jay CHANG
+</details>
+<details>
+<p><summary><span style="color:#1D5287"><strong>Ecological Modeling Seminar</strong></span> (<a href="">Ocean 7152</a>) - 2 credits</summary></p>
+<p><strong>Description</strong>: A seminar course for presenting and discussing about research in ecology and quantitative analysis. Students are required to give 2 presentations and participate discussion in English.</p>
+<strong>Instructor</strong>: Hui-Yu WANG; Chih-Hao HSIEH
 </details>
 <h2 id="marine-data-analysis">Marine Data Analysis</h2>
 <details>
-<summary><span style="color:#1D5287"><strong>Ecological Data Analysis in R</strong></span> (<a href="">OCEAN 5089</a>) - 3 credits</summary> <strong>Description</strong>: this course is designed to teach the use of a programming language for the analysis of ecological data. The course will introduce the basics of R language, and will go through topics such as data manipulation, exploration and visualization. It will then present common approaches for data analysis introducing frequent statistical tests, linear models, clustering and ordination approaches applying to multivariate data. This course mainly targets students without prior understanding of R language and who want to get familiar with this free &amp; open-source software environment. Students will also be introduced to GitHub and Rmarkdown that further improve the use of R. Students will require a laptop for sessions. Schedule is subject to changes according to student progress. <strong>Instructor</strong>: Vianney DENIS
+<p><summary><span style="color:#1D5287"><strong>Ecological Data Analysis in R</strong></span> (<a href="">OCEAN 5089</a>) - 3 credits</summary> <strong>Description</strong>: this course is designed to teach the use of a programming language for the analysis of ecological data. The course will introduce the basics of R language, and will go through topics such as data manipulation, exploration and visualization. It will then present common approaches for data analysis introducing frequent statistical tests, linear models, clustering and ordination approaches applying to multivariate data. This course mainly targets students without prior understanding of R language and who want to get familiar with this free &amp; open-source software environment. Students will also be introduced to GitHub and Rmarkdown that further improve the use of R. Students will require a laptop for sessions. Schedule is subject to changes according to student progress.</p>
+<strong>Instructor</strong>: Vianney DENIS
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Biological modeling</strong></span> (<a href="">OCEAN 5074</a>) - 3 credits</summary> <strong>Description</strong>: The course material is designed to be interdisciplinary, integrating biology, ecology, mathematics and environmental sciences. While the main course material is based on classic ecological modeling textbooks and articles, these analytic methods are applicable to multi-faceted research questions. The material builds from a single population and then extends to the ecosystem level, including species interaction, climate changes and disease as well as molecules interactions within cells. Regular modeling exercises are required (1 unit as practice). After equipped with modeling skills, students have to develop their own research questions and use modeling and data mining approaches to solve their questions. Instructors will guide students through the question-solving processes. <strong>Instructor</strong>: Chih-hao HSIEH; Hui-Yu WANG
+<p><summary><span style="color:#1D5287"><strong>Biological modeling</strong></span> (<a href="">OCEAN 5074</a>) - 3 credits</summary> <strong>Description</strong>: The course material is designed to be interdisciplinary, integrating biology, ecology, mathematics and environmental sciences. While the main course material is based on classic ecological modeling textbooks and articles, these analytic methods are applicable to multi-faceted research questions. The material builds from a single population and then extends to the ecosystem level, including species interaction, climate changes and disease as well as molecules interactions within cells. Regular modeling exercises are required (1 unit as practice). After equipped with modeling skills, students have to develop their own research questions and use modeling and data mining approaches to solve their questions. Instructors will guide students through the question-solving processes.</p>
+<strong>Instructor</strong>: Chih-hao HSIEH; Hui-Yu WANG
 </details>
 <details>
-<summary><span style="color:#1D5287"><strong>Computer-Intensive Statistics in Ecology</strong></span> (<a href="">OCEAN 5052</a>) - 3 credits</summary> <strong>Description</strong>: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems. <strong>Instructor</strong>: Chih-hao HSIEH; Yi-Jay CHANG
+<p><summary><span style="color:#1D5287"><strong>Computer-Intensive Statistics in Ecology</strong></span> (<a href="">OCEAN 5052</a>) - 3 credits</summary> <strong>Description</strong>: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems.</p>
+<strong>Instructor</strong>: Chih-hao HSIEH; Yi-Jay CHANG
 </details>
 <h2 id="marine-geology">Marine Geology</h2>
 <h2 id="marine-chemistry">Marine Chemistry</h2>
 <details>
-<p><summary><span style="color:#1D5287"><strong>Environmental chemistry and sustainable management of coral reefs (field visit included)</strong></span> (<a href="">OCEAN XXXX</a>) - 3 credits</summary> <strong>Description</strong>: This advanced course is designed to train graduate students and advanced undergraduate students to obtain knowledge about environmental chemistry, focusing on coral reef environmental chemistry. The students will become skillful to channel the most updated scientific research results with citizen scientists, e.g. residential volunteers. Through this course, we will search through the literature and to identify key parameters for coral reef environmental monitoring. Students will help to analyze samples collected by our collaborating citizen scientists, to interpret the data based on literature information, and to present the results to citizen scientists at the beach site at the end of the semester. <strong>Instructor</strong>: Huei-Ting (Tina) Lin</p>
+<p><summary><span style="color:#1D5287"><strong>Environmental chemistry and sustainable management of coral reefs (field visit included)</strong></span> (<a href="">OCEAN XXXX</a>) - 3 credits</summary> <strong>Description</strong>: This advanced course is designed to train graduate students and advanced undergraduate students to obtain knowledge about environmental chemistry, focusing on coral reef environmental chemistry. The students will become skillful to channel the most updated scientific research results with citizen scientists, e.g. residential volunteers. Through this course, we will search through the literature and to identify key parameters for coral reef environmental monitoring. Students will help to analyze samples collected by our collaborating citizen scientists, to interpret the data based on literature information, and to present the results to citizen scientists at the beach site at the end of the semester.</p>
+<p><strong>Instructor</strong>: Huei-Ting (Tina) Lin</p>
 <h2 id="ocean-physics">Ocean Physics</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
