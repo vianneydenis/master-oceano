@@ -5,7 +5,14 @@ description: |
 site: distill::distill_website
 ---
 
-Our master is dedicated at forming students 
+Our Master of Science is dedicated at forming students to work in the wide field of marine sciences. 
+
+
+
+
+A minimum of 24 credits plus a master thesis are required.
+
+
 
 
 

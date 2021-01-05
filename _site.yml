@@ -2,8 +2,7 @@ name: "master-oceano"
 title: "Master Oceanography"
 theme: theme.css
 favicon: images/logo.png
-base_url: https://rstudio.github.io/distill
-repository_url: https://github.com/rstudio/distill
+base_url: https://github.com/vianneydenis/master-oceano.git
 creative_commons: CC BY
 output_dir: "."
 navbar:
@@ -15,9 +14,7 @@ navbar:
   right:
     - text: "The Institute"
       href: institute.html
-    - text: "Master Program"
-      href: master.html
-    - text: "Courses"
+    - text: "Our Courses"
       menu:
         - text: "Required"
           href: required.html
@@ -26,12 +23,16 @@ navbar:
         - text: "---"
         - text: "External"
           href: external.html
+    - text: "The Thesis"
+      href: thesis.html         
     - text: "How to Apply"
       menu:
-        - text: "Publishing Articles"
-          href: publish_article.html
-        - text: "Publishing Websites"
-          href: publish_website.html
+        - text: "Requirements"
+          href: requirement.html
+        - text: "Application"
+          href: application.html
+        - text: "Tuition & Financial Support"
+          href: tuition.html
     - text: "Useful Links"
       href: advices.html
 output:
@@ -39,3 +40,4 @@ output:
     css: styles.css
     highlight: rstudio
     toc: true
+    toc_float: TRUE

@@ -4,6 +4,8 @@ description: |
   List of required courses in English and by division
 ---
 
+Requires classes are compulsory. They represent **11 credits on the 24 credits** you need to accumulate along the two years of your master degree. This is in addition of a Master thesis.
+
 ## Core Curriculum (all divisions)
 
 <details>

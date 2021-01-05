@@ -10,7 +10,7 @@ Funded in 1968, our institute (**IONTU**) is dedicated to interdisciplinary rese
 
 *Location of IONTU* 
 
-```{r}
+```{r, echo=F}
 library(leaflet)
 leaflet() %>%
   addProviderTiles(providers$Stamen.Toner) %>%
@@ -24,7 +24,7 @@ leaflet() %>%
 
 ## Divisions
 
-The institute is divided in four main divisions: physical oceanography, chemical oceanography, marine geology and geophysics, marine biology and fisheries. They directly respond to the need of interdisciplinary research in marine sciences.   
+The institute is divided in four main divisions: **physical oceanography**, **chemical oceanography**, **marine geology and geophysics**, **marine biology and fisheries**. They directly respond to the need of interdisciplinary research in marine sciences.   
 
 ## Vision
 
