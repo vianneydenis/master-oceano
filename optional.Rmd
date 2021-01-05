@@ -4,7 +4,7 @@ description: |
  List of optional courses in English and by topic
 ---
 
-Those classes are optional. You must accumulated a minimum of **13 credits** with these classes on the **24 credits** you need to get your  degree and aside from your thesis.
+Those classes are optional. You must accumulate a minimum of **13 credits** with these classes on the **24 credits** you need to get your  degree and aside from your thesis.
 
 
 ## General Topics
