@@ -25,6 +25,40 @@ Those courses ...
 Those courses ...
 
 <details>
+<summary><span style="color:#1D5287">**Biological Oceanography**</span> ([OCEAN 5051](.\syllabus\OCEAN5051.html)) - 3 credits</summary>
+**Description**: This is a course intended for undergraduate and graduate students with knowledge of basic ecology. The focus will be on OCEANOGRAPHY, with investigation on interactive biological, chemical, and physical processes in the ocean. The purposes are to give an overview of biological ocean science (a wide rather than deep view) and to provide basic information and training for graduate research. The discussion will range from physical effects on the biology to biological effects on biogeochemical cycling; the spatial scale will range from individual organisms (e.g. viscosity and turbulences on plankton feeding and nutrient uptake) to ecosystem (e.g. remote sensing and circulation modeling); the organism will range from virus to whales. 
+
+**Instructor**: Chih-Hao HSIEH, Fuh-Kwo SHIAH 
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Evolutionary Biology and Population Genetics: Theory and Practice**</span> ([OCEAN 5117]()) - 2 credits</summary>
+**Description**: This is a basic and practical course intended for senior undergraduate and graduate students with already strong knowledge in basic biology. Students who are interested in any fields in biology are all welcome, because all of the biological phenomena are the product of the evolution. We will learn basic but important mathematical methods for analyzing evolutionary dynamics in biological systems. The course is designed for hand-on work with the empirical data. We will also use well-developed software but we do not need skills in computer programming for our practical work.
+
+Major topics include: 
+
+1. Basics in evolution 
+2. Neutral evolution and natural selection 
+3. Classical and modern population genetics
+4. Phylogeography
+
+**Instructor**: Wei-Jen CHEN 
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Research topic on molecular systematics of fishes**</span> ([OCEAN 7170]()) - 2 credits</summary>
+**Description**: The goal of systematic studies is to provide a meaningful interpretation of biodiversity and a comprehensive understating of mechanisms of evolution within the phylogenetic framework of the studying organisms. In this course, we will focus on the ray-finned fishes (especially those ones from marine habitats) that is the most diverse group of vertebrates and represents a source of valuable information for comparative biology as well as for medical science, yet many questions on their systematics (e.g., classification, taxonomy, evolution, biogeography, etc.) are still unanswered. To answer the questions, the molecular phylogenetic approach should primarily be used. The students involved in this course will learn how to use the molecular genetic data to conduct a research work for this perspective. Each student will be assigned for a work of a selected marine fish group and will be expected to write a manuscript about his/her conducted research that is publishable in a scientific journal. 
+
+**Instructor**: Wei-Jen CHEN 
+</details>
+
+
+
+
+
+<details>
 <summary><span style="color:#1D5287">**Field Course in Coral Reef Ecology**</span> ([OCEAN 7194]()) - 3 credits</summary>
 **Description**: this course is designed to provide the student with a solid foundation in ecological concepts, techniques and experimental design in field research as applied to coral reef ecosystems. It consists of a one-week field-based research at a marine research station in Taiwan. To have attended Ocean 5097 is strongly recommended before joining this course. Alternatively, solid knowledge of coral reefs and the environmental challenges they are currently facing is requested. The course will begin with a general introduction of the coral reefs and how they are influenced by global and local factors. It will quickly narrow down to the context of Taiwan by introducing the local context: known diversity, past disturbances, and on-going research. The major reef biota will be discussed in terms of their ecological requirements, roles on the reef and their overall impact. Methods in ecological monitoring and sampling will be discussed and applied on the field and will serve as a baseline for a future long-term ecological assessment. Data analysis will consist of examining and comparing structure of benthic assemblages among sites and depths (basic knowledge of R software is recommended). Students are asked to provide a poster (electronic format) summarizing their work a maximum of one month after the last day on the field. 
 
