@@ -20,6 +20,18 @@ Those courses ...
 
 </details>
 
+
+<details>
+<summary><span style="color:#1D5287">**Paper Reading**</span> ([OCEAN 7005]()) - 1 credit</summary>
+**Description**: the class aims to establish students' ability to read, understand, present, question, and discuss research topics by presenting a textbook chapter and scientific paper. Students are required to preparing abstracts and 35-minute presentations. We expect the presentations to go beyond the textbook contents or selected papers to acquire additional materials when necessary.
+
+**Instructor**: Chih-Lin WEI, Hui-Yu WANG, Chih-Hao HSIEH; Chang-Feng DAI
+
+</details>
+
+
+
+
 ## Marine Biology and Ecology
 
 Those courses ...
@@ -29,6 +41,22 @@ Those courses ...
 **Description**: This is a course intended for undergraduate and graduate students with knowledge of basic ecology. The focus will be on OCEANOGRAPHY, with investigation on interactive biological, chemical, and physical processes in the ocean. The purposes are to give an overview of biological ocean science (a wide rather than deep view) and to provide basic information and training for graduate research. The discussion will range from physical effects on the biology to biological effects on biogeochemical cycling; the spatial scale will range from individual organisms (e.g. viscosity and turbulences on plankton feeding and nutrient uptake) to ecosystem (e.g. remote sensing and circulation modeling); the organism will range from virus to whales. 
 
 **Instructor**: Chih-Hao HSIEH, Fuh-Kwo SHIAH 
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Marine Ecology**</span> ([OCEAN 5002]()) - 3 credits</summary>
+**Description**: This course offers a balanced, stimulating survey of marine ecology, introducing the key processes and systems from which the marine environment is formed, and the issues and challenges surrounding its future conservation. Students are expected to develop a broad understanding of various topics of marine ecology, be able to generate an in-depth review on a selected topic and give a presentation. The presentation topic and paper should be timely and include information from current SCIENTIFIC literature related to marine ecology. Students are encouraged to participate in the discussion on both lectures and presentations.
+
+**Instructor**: Chih-Lin WEI
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Field Work in Marine Biology**</span> ([OCEAN 7090]()) - 1 credit</summary>
+**Description**: This course offers a balanced, stimulating survey of marine ecology, introducing the key processes and systems from which the marine environment is formed, and the issues and challenges surrounding its future conservation. Students are expected to develop a broad understanding of various topics of marine ecology, be able to generate an in-depth review on a selected topic and give a presentation. The presentation topic and paper should be timely and include information from current SCIENTIFIC literature related to marine ecology. Students are encouraged to participate in the discussion on both lectures and presentations.
+
+**Instructor**: Chih-Lin WEI, Jen-Chieh SHIAO, Chang-Feng DAI
 </details>
 
 
