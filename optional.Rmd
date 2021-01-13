@@ -37,7 +37,7 @@ Those courses ...
 Those courses ...
 
 <details>
-<summary><span style="color:#1D5287">**Biological Oceanography**</span> <a href=".\syllabus\OCEAN5051.tex"target="_blank"> (OCEAN 5051)</a> - 3 credits </summary>
+<summary><span style="color:#1D5287">**Biological Oceanography**</span> <a href=".\syllabus\OCEAN5051.html"target="_blank"> (OCEAN 5051)</a> - 3 credits </summary>
 **Description**: This is a course intended for undergraduate and graduate students with knowledge of basic ecology. The focus will be on OCEANOGRAPHY, with investigation on interactive biological, chemical, and physical processes in the ocean. The purposes are to give an overview of biological ocean science (a wide rather than deep view) and to provide basic information and training for graduate research. The discussion will range from physical effects on the biology to biological effects on biogeochemical cycling; the spatial scale will range from individual organisms (e.g. viscosity and turbulences on plankton feeding and nutrient uptake) to ecosystem (e.g. remote sensing and circulation modeling); the organism will range from virus to whales. 
 
 **Instructor**: Chih-Hao HSIEH, Fuh-Kwo SHIAH 
@@ -101,7 +101,7 @@ Major topics include:
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> ([OCEAN 5097]()) - 3 credits</summary>
+<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> <a href=".\syllabus\OCEAN5097.html"target="_blank"> (OCEAN 5097)</a> - 3 credits </summary>
 **Description**: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem.
 
 **Instructor**: Vianney DENIS
