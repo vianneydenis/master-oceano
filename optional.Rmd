@@ -43,6 +43,15 @@ Those courses ...
 **Instructor**: Chih-Hao HSIEH, Fuh-Kwo SHIAH 
 </details>
 
+<details>
+<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> <a href=".\syllabus\OCEAN5097.html"target="_blank"> (OCEAN 5097)</a> - 3 credits </summary>
+**Description**: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem.
+
+**Instructor**: Vianney DENIS
+</details>
+
+
+
 
 <details>
 <summary><span style="color:#1D5287">**Marine Ecology**</span> ([OCEAN 5002]()) - 3 credits</summary>
@@ -100,12 +109,7 @@ Major topics include:
 **Instructor**: Vianney DENIS
 </details>
 
-<details>
-<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> <a href=".\syllabus\OCEAN5097.html"target="_blank"> (OCEAN 5097)</a> - 3 credits </summary>
-**Description**: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem.
 
-**Instructor**: Vianney DENIS
-</details>
 
 <details>
 <summary><span style="color:#1D5287">**Special topics on Ichthyology**</span> ([OCEAN 5067]()) - 2 credits</summary>
@@ -172,6 +176,22 @@ assessment. The course materials are mainly based on published papers in interna
 **Instructor**: Yi-Jay CHANG
 </details>
 
+## Marine Data Analysis
+
+
+<details>
+<summary><span style="color:#1D5287">**Biological modeling**</span> <a href=".\syllabus\OCEAN5074.html"target="_blank"> (OCEAN 5074)</a> - 3 credits </summary>
+**Description**: The course material is designed to be interdisciplinary, integrating biology, ecology, mathematics and environmental sciences. While the main course material is based on classic ecological modeling textbooks and articles, these analytic methods are applicable to multi-faceted research questions. The material builds from a single population and then extends to the ecosystem level, including species interaction, climate changes and disease as well as molecules interactions within cells. Regular modeling exercises are required (1 unit as practice). After equipped with modeling skills, students have to develop their own research questions and use modeling and data mining approaches to solve their questions. Instructors will guide students through the question-solving processes.
+
+**Instructor**: Chih-hao HSIEH;  Hui-Yu WANG, Sheng-Feng SHEN
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Computer-Intensive Statistics in Ecology**</span> <a href=".\syllabus\OCEAN5052.html"target="_blank"> (OCEAN 5052)</a> - 3 credits </summary>
+**Description**: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems.
+
+**Instructor**: Chih-hao HSIEH; Yi-Jay CHANG
+</details>
 
 <details>
 <summary><span style="color:#1D5287">**Ecological Modeling Seminar**</span> ([Ocean 7152]()) - 2 credits</summary>
@@ -181,9 +201,6 @@ assessment. The course materials are mainly based on published papers in interna
 **Instructor**: Hui-Yu WANG; Chih-Hao HSIEH
 </details>
 
-
-## Marine Data Analysis
-
 <details>
 <summary><span style="color:#1D5287">**Ecological Data Analysis in R**</span> ([OCEAN 5089]()) - 3 credits</summary>
 **Description**: this course is designed to teach the use of a programming language for the analysis of ecological data. The course will introduce the basics of R language, and will go through topics such as data manipulation, exploration and visualization. It will then present common approaches for data analysis introducing frequent statistical tests, linear models, clustering and ordination approaches applying to multivariate data. This course mainly targets students without prior understanding of R language and who want to get familiar with this free & open-source software environment. Students will also be introduced to GitHub and Rmarkdown that further improve the use of R. Students will require a laptop for sessions. Schedule is subject to changes according to student progress.
@@ -191,20 +208,7 @@ assessment. The course materials are mainly based on published papers in interna
 **Instructor**: Vianney DENIS
 </details>
 
-<details>
-<summary><span style="color:#1D5287">**Biological modeling**</span> ([OCEAN 5074]()) - 3 credits</summary>
-**Description**: The course material is designed to be interdisciplinary, integrating biology, ecology, mathematics and environmental sciences. While the main course material is based on classic ecological modeling textbooks and articles, these analytic methods are applicable to multi-faceted research questions. The material builds from a single population and then extends to the ecosystem level, including species interaction, climate changes and disease as well as molecules interactions within cells. Regular modeling exercises are required (1 unit as practice). After equipped with modeling skills, students have to develop their own research questions and use modeling and data mining approaches to solve their questions. Instructors will guide students through the question-solving processes.
 
-**Instructor**: Chih-hao HSIEH;  Hui-Yu WANG
-</details>
-
-
-<details>
-<summary><span style="color:#1D5287">**Computer-Intensive Statistics in Ecology**</span> ([OCEAN 5052]()) - 3 credits</summary>
-**Description**: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems.
-
-**Instructor**: Chih-hao HSIEH; Yi-Jay CHANG
-</details>
 
 
 ## Marine Geology 
