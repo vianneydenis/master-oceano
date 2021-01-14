@@ -109,7 +109,12 @@ Major topics include:
 **Instructor**: Vianney DENIS
 </details>
 
-
+<details>
+<summary><span style="color:#1D5287">**Population Ecology and Sustainable Fisheries Resources**</span> ([OCEAN 5105]()) - 3 credits</summary>
+**Description**: Understanding dynamics and fluctuations of natural fish populations requires a diverse set of skills. Through this course students will learn knowledge of fish biology and field and quantitative methodologies for exploring population dynamics of both freshwater and marine fishes. In addition, students will broaden understanding of fisheries and natural resource management (through lectures and text book readings), practice and develop critical thinking skills (through in-class discussions and a group presentation), and learn how to read and interpret the scientific literature in fish ecology and fisheries science (through discussing the primary literature). Ultimately, this course will provide knowledge and training on formulating research questions and tackling problems in management of fisheries and other natural resources in a changing world. 
+ 
+**Instructor**: Hui-Yu WANG; Yi-Jay CHANG
+</details>
 
 <details>
 <summary><span style="color:#1D5287">**Special topics on Ichthyology**</span> ([OCEAN 5067]()) - 2 credits</summary>
