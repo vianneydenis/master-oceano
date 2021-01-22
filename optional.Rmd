@@ -17,7 +17,14 @@ Those courses ...
 **Description**: this seminar course is designed to improve IONTU graduate students’ communication skills through writing in English. Students will utilize examples from the textbook, “Writing science: How to write papers that get cited and proposals that get funded” by Joshua Schimel. I will also share comments and revisions to scientific manuscripts that I collected over the years. The class starts by having students write a short Facebook post about their own research. Students will lean to expand their Facebook post into a one-page-long (800-850 words) article. Throughout the class, students will apply writing styles and techniques to edit their article, including ways to condense their article to only 300-350 word long. Each student is also required to read and analyze four published scientific papers of their own choice: one from a specialist journal written by a leader recognized in their field and a good writer, one typical paper from a specialized journal, one review paper, and one article from Nature or Science. The course will also incorporate peer-review practices; students will learn to recognize strengths and weakness of other students’ writing and give constructive comments to help improve each other’s writing. This is exactly what scientists do routinely: we review and give constructive comments to other’s manuscripts and proposals to help the science community grow. Students who have already had writing projects (such as an abstract, manuscript, or dissertation) can also practice analyzing and editing these drafts. We will also invite a guest lecturer from NTU’s Department of Foreign Languages and Literature or from NTNU’s English Department to talk about common English mistakes made by Taiwanese students and ways to improve this.
 
 **Instructor**: Huei-Ting (Tina) Lin
+</details>
 
+
+<details>
+<summary><span style="color:#1D5287">**Scientific Communication in English**</span> ([OCEAN 7192]()) - 1 credit</summary>
+**Description**: This course is designed to guide graduate students in communicating science professionally, with emphasis on training/practicing. More than half of the class hours will be on discussion and implementation of theories. The second half of the semester will focus on scientific/thesis writing skills. For IONTU students, this can serve as a supplemental course to each division’s seminar course. Course designed for students with background in science. Objective are: 1) Students get to practice scientific communication skills, including poster and oral presentations. (2) Students learn to apply the theories learnt in class or elsewhere. (3) Students get to practice scientific writing in English, as well as English skills in scientific correspondence and conferences.  
+
+**Instructor**: Sze Ling HO
 </details>
 
 
@@ -213,10 +220,43 @@ assessment. The course materials are mainly based on published papers in interna
 **Instructor**: Vianney DENIS
 </details>
 
+## Marine Geology
+
+
+<details>
+<summary><span style="color:#1D5287">**Invitation to Paleoceanography**</span> ([OCEAN 5126]()) - 2 credits</summary>
+**Description**: This course aims to introduce an interdisciplinary branch of science, known as paleoceanography (knowledge of ancient oceans), to students with no prior background. Ocean is an integral part of the Earth’s climate system, thus mechanistic understanding of how oceans change in the past will improve overall understanding of global climate change. The lecture contents are across disciplines, ranging from general oceanography, climate change, formation process of marine sediments, geochemical indicators used as proxies of past oceanic change, to the instruments used to generate these geochemical data. The course is suitable for oceanography / geoscience / Earth science / geography students who are curious about climate change, paleoceanography and paleoclimate. It is especially useful for students who plan to carry out graduate research in paleoceanography, either as introductory or refresher course. The course will adopt inquiry-based learning (student-led learning). Critical thinking questions will be provided to steer discussion. The goal of the course is to ensure that students can apply the knowledge and theories learnt in class and to link different topics across disciplines. Students will achieve basic understanding on how climate changes on Earth and especially the oceans can be reconstructed using marine sediments. The inquiry-based approach will train students in critical thinking, problem solving and independent learning – all of these skills are essential for a career in academia and industry. There will be plenty of opportunities for discussion and debate to train students’ communication skills. The interdisciplinary nature of climate science exposes students to various fields of study and approaches used, which helps to broaden their horizon beyond their major. 
+
+**Instructor**: Sze Ling HO
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Climate and Ocean**</span> ([OCEAN 5112]()) - 2 credits</summary>
+**Description**: This is an introductory course on Earth’s climate, and its link to the ocean which covers 70% of the Earth’s surface. Emphasis is on climate changes since the past 50 Million years at different time-scales and how these changes can be inferred using different climate archives. Students will achieve basic understanding on how climate changes on Earth, as well as be exposed to unresolved issues in climate science. The latter will train students in critical thinking and debate, i.e. skills which will be especially helpful for students who are interested in graduate research. The interdisciplinary nature of climate science exposes students to various fields of study and approaches used, which helps to broaden their horizon beyond their major.   
+
+**Instructor**: Sze Ling HO
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Paleoclimate Proxies in Marine Sediments**</span> ([OCEAN 7185]()) - 2 credits</summary>
+**Description**: This course is designed to guide graduate students in communicating science professionally, with emphasis on training/practicing. More than half of the class hours will be on discussion and implementation of theories. The second half of the semester will focus on scientific/thesis writing skills. For IONTU students, this can serve as a supplemental course to each division’s seminar course. Course designed for students with background in science. Objective are: 1) Students get to practice scientific communication skills, including poster and oral presentations. (2) Students learn to apply the theories learnt in class or elsewhere. (3) Students get to practice scientific writing in English, as well as English skills in scientific correspondence and conferences.   
+
+**Instructor**: Sze Ling HO
+</details>
 
 
 
-## Marine Geology 
+
+
+
+
+
+
+
+
+
+
 
 ## Marine Chemistry 
 
