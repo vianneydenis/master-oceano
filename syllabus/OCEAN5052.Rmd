@@ -1,6 +1,6 @@
 ---
 title: "Computer intensive statistics in ecology (OCEAN 5052)"
-output: html_document
+output: pdf_document
 ---
 
 ## Information

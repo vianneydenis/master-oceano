@@ -1,7 +1,7 @@
 ---
 title: "The Institute"
 description: |
- Insttitute of Oceanography, National Taiwan University (IONTU)
+ Institute of Oceanography, National Taiwan University (IONTU)
 ---
 
 ## Presentation
@@ -9,6 +9,9 @@ description: |
 Funded in 1968, our institute (**IONTU**) is dedicated to interdisciplinary research and education in marine sciences. The institute is located at the northern part of NTU campus at the heart of Taipei, the capital of Taiwan. NTU is the most prestigious comprehensive university in Taiwan and one of the top-ranked universities in Asia and  the world (**[QS Global World Ranking](https://www.topuniversities.com/university-rankings/world-university-rankings/2021): 66 **). Discovery a lively international campus, and enjoy the life in a friendly country inspired by a rich history and ambitions for its future. 
 
 *Location of IONTU* 
+
+IONTU is located 
+
 
 ```{r, echo=F}
 library(leaflet)

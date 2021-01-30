@@ -1,6 +1,6 @@
 ---
 title: "Biological Oceanography (OCEAN 5051)"
-output: html_document
+output: pdf_document
 ---
 
 ## Information
