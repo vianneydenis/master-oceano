@@ -1,11 +1,12 @@
 ---
-title: "Our Program"
+title: "Welcome"
 description: |
-  Welcome to the introduction of the master program of the institute of oceanography, National Taiwan University
+  to the website introducing the master of science of the Intitute of Oceanography at National Taiwan University (IONTU)
 site: distill::distill_website
 ---
 
-Our Master of Science is dedicated at forming students to work in the wide field of marine sciences. 
+You will find here useful information about the institute, the program, the course in English and the way to apply as well as useful information to make your life in Taiwan. 
+
 
 
 
