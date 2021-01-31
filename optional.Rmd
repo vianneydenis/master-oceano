@@ -1,7 +1,7 @@
 ---
 title: "Optional courses"
 description: |
- List of optional courses in English and by topic
+ List of optional courses in English and by topic. Click on their title for a short description of the course. Download syllabus by clicking on course code. 
 ---
 
 Those classes are optional. You must accumulate a minimum of **13 credits** with these classes on the **24 credits** you need to get your  degree and aside from your thesis.
@@ -44,14 +44,14 @@ Those courses ...
 Those courses ...
 
 <details>
-<summary><span style="color:#1D5287">**Biological Oceanography**</span> <a href=".\syllabus\OCEAN5051.html"target="_blank"> (OCEAN 5051)</a> - 3 credits </summary>
+<summary><span style="color:#1D5287">**Biological Oceanography**</span> <a href=".\syllabus\OCEAN5051.pdf"target="_blank"> (OCEAN 5051)</a> - 3 credits </summary>
 **Description**: This is a course intended for undergraduate and graduate students with knowledge of basic ecology. The focus will be on OCEANOGRAPHY, with investigation on interactive biological, chemical, and physical processes in the ocean. The purposes are to give an overview of biological ocean science (a wide rather than deep view) and to provide basic information and training for graduate research. The discussion will range from physical effects on the biology to biological effects on biogeochemical cycling; the spatial scale will range from individual organisms (e.g. viscosity and turbulences on plankton feeding and nutrient uptake) to ecosystem (e.g. remote sensing and circulation modeling); the organism will range from virus to whales. 
 
 **Instructor**: Chih-Hao HSIEH, Fuh-Kwo SHIAH 
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> <a href=".\syllabus\OCEAN5097.html"target="_blank"> (OCEAN 5097)</a> - 3 credits </summary>
+<summary><span style="color:#1D5287">**Coral Reef Ecosystem in a Changing World**</span> <a href=".\syllabus\OCEAN5097.pdf"target="_blank"> (OCEAN 5097)</a> - 3 credits </summary>
 **Description**: The rapid decline of coral reefs around the world motivates research to better understand how this complex ecosystem will respond to future environmental changes. This course will review current knowledge on reef organisms and coral reef ecosystem, and will study the factors responsible for reef degradation. The basic elements to assess resilience of this ecosystem will be introduced. The students will learn how the knowledge and skills obtained through the lectures and practice work can be used for the management and the conservation of this fragile ecosystem.
 
 **Instructor**: Vianney DENIS
@@ -192,14 +192,14 @@ assessment. The course materials are mainly based on published papers in interna
 
 
 <details>
-<summary><span style="color:#1D5287">**Biological modeling**</span> <a href=".\syllabus\OCEAN5074.html"target="_blank"> (OCEAN 5074)</a> - 3 credits </summary>
+<summary><span style="color:#1D5287">**Biological modeling**</span> <a href=".\syllabus\OCEAN5074.pdf"target="_blank"> (OCEAN 5074)</a> - 3 credits </summary>
 **Description**: The course material is designed to be interdisciplinary, integrating biology, ecology, mathematics and environmental sciences. While the main course material is based on classic ecological modeling textbooks and articles, these analytic methods are applicable to multi-faceted research questions. The material builds from a single population and then extends to the ecosystem level, including species interaction, climate changes and disease as well as molecules interactions within cells. Regular modeling exercises are required (1 unit as practice). After equipped with modeling skills, students have to develop their own research questions and use modeling and data mining approaches to solve their questions. Instructors will guide students through the question-solving processes.
 
 **Instructor**: Chih-hao HSIEH;  Hui-Yu WANG, Sheng-Feng SHEN
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Computer-Intensive Statistics in Ecology**</span> <a href=".\syllabus\OCEAN5052.html"target="_blank"> (OCEAN 5052)</a> - 3 credits </summary>
+<summary><span style="color:#1D5287">**Computer-Intensive Statistics in Ecology**</span> <a href=".\syllabus\OCEAN5052.pdf"target="_blank"> (OCEAN 5052)</a> - 3 credits </summary>
 **Description**: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems.
 
 **Instructor**: Chih-hao HSIEH; Yi-Jay CHANG

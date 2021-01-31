@@ -1,18 +1,11 @@
 ---
 title: "Welcome"
 description: |
-  to the website introducing the master of science of the Intitute of Oceanography at National Taiwan University (IONTU)
+  This is the website introducing the master of science of the Intitute of Oceanography at National Taiwan University (IONTU)
 site: distill::distill_website
 ---
 
-You will find here useful information about the institute, the program, the course in English and the way to apply as well as useful information to make your life in Taiwan. 
-
-
-
-
-
-A minimum of 24 credits plus a master thesis are required.
-
+Here, you will find  useful information about the institute, the program, the English courses available as well as detailed information on how to apply to our master and your future life in Taiwan. 
 
 
 
