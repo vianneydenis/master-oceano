@@ -1,21 +1,42 @@
 ---
 title: "Our program"
 description: |
- Master of Oceanography
- 
-abstract: "Our master try to djdjdjdj"
+ Master of Oceanography of the Institute of Oceanography
 ---
-
-
-
-Here, you will find  useful information about the institute, the program, the English courses available for foreigner studnetsas well as detailed information on how to apply to our master and your future life in Taiwan.
 
 ## Presentation
 
-Our master program aims at forming in two years 
+Our master program was created in 19XX and has since formed over xxxx students. It is composed of four specialities: marine biology and fisheries, physical ocenagraphy, chemical oceanography, marine geology and geophysics that will provide the students with expertise in one of those areas.
 
 
 ## Objectives
+
+Our master program is designed to prepare students, in two years, for a career in marine  research, teaching, and other environmentally related endeavors. After graduation, some may continue and purchase a Ph.D. in a related field. To contrast, some may decide to look at professional opportunities.
+
+## Statistics
+
+From our record on the devenir of the students, about XX % are working in a realated field 1 yr after graduation. 
+
+```{r, echo=F, fig.cap="Devenir of IONTU studnet 1 yr after graduation"}
+library(plotrix)
+library(RColorBrewer)
+slices <- c(10, 12, 4, 16, 8)
+lbls <- c("Ph.D.", "Engineer", "Consulting", "Assitant", "Other")
+
+a <- pie3D(slices, radius = 0.8, explode = 0.05, mar = c(0,0,0,0), col=brewer.pal(5,"RdGy"))
+pie3D.labels(a, radius = 0.9, labels = lbls, labelcex = 0.7)
+```
+
+
+
+## Admission
+
+The fundamental requirement for admission to the program is a strong motivation for ocean sciences and an aptitude for original research. The preparation for admission to our graduate program should comprise an undegraduate degree in the discipline  of one of the program specialties or an an equivalent background. If a student does not have a degree in one of these areas, the student must demonstrate that they have taken the classes necessary to do their research. It is strongly recommended that students applying prealably contact a sponsor professor to discuss the relevance of the study they want to develop. A list of the professor by speciality together with their contact is available on the website of the Institute of Oceanography (http://www.oc.ntu.edu.tw/oceng). It is possible to have a project co-advised with external researcher of the institute. In this case, it is also strongly recommended that the student discuss about the possibility to be co-advised. 
+
+ 
+
+
+
 
 ## Graduation
 
