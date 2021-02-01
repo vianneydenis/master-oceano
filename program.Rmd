@@ -2,10 +2,17 @@
 title: "Our program"
 description: |
  Master of Oceanography
+ 
+abstract: "Our master try to djdjdjdj"
 ---
+
+
+
+Here, you will find  useful information about the institute, the program, the English courses available for foreigner studnetsas well as detailed information on how to apply to our master and your future life in Taiwan.
 
 ## Presentation
 
+Our master program aims at forming in two years 
 
 
 ## Objectives

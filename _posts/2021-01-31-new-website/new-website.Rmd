@@ -1,0 +1,22 @@
+---
+title: "New Website - try"
+description: |
+  Beta Release Website
+author:
+  - name: Vianney DENIS
+date: 01-31-2021
+categories:
+  - test
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r, layout="l-body-outset", preview=TRUE}
+library(ggplot2)
+ggplot(diamonds, aes(carat, price)) + geom_smooth() +
+  facet_grid(~ cut)
+```
+
+This post is a test for the beta version. The plot has no realtionship with this post but it is good to know about diamond
+

@@ -1,23 +1,6 @@
 ---
-title: "Welcome"
-description: |
-  This is the website introducing the master of science of the Intitute of Oceanography at National Taiwan University (IONTU)
+title: "News"
 site: distill::distill_website
+listing: posts
 ---
-
-Here, you will find  useful information about the institute, the program, the English courses available as well as detailed information on how to apply to our master and your future life in Taiwan. 
-
-
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
+ 
