@@ -9,6 +9,14 @@
       "last_modified": "2021-01-31T12:54:15+08:00"
     },
     {
+      "path": "application.html",
+      "title": "Application",
+      "description": "Things you must check before applying and how to apply",
+      "author": [],
+      "contents": "\r\nOverseas students applying to NTU are divided into International Students, Overseas Chinese Students, Hong Kong and Macao Students, and Mainland Chinese Students. The application process, tuition fees, and available degrees may differ depending on students’ identities. Before you start your application to NTU, it is important to check your eligibility and decide the application methods you would like to use to submit your application (check important Note for students from Mainland China available on the same page).\r\nInternational applicants with a Bachelor’s degree should be eligible to apply to our Master’s Degree program; in addition, candidate are strongly advised to contact possible tutor prior their application in order to discuss the relevance of the research topics he wants to develop. Candidates with strong motivation and a certain scientific maturity will be an advantage at the selection of elligible applications.\r\nOnce you checked your eligibility, contact a possible advisor, you should decide your the time you want to join our master. The first semester classes start in September and second semester classes start in February. At IONTU we request master students to start at the first semester in September. On the same page you checked your eligibility, open the link to September Entry.\r\nYou find in the section Before Applying an online document you must read carefully Admission Guidelines for International Degree Students and another link to check the scholarships you can applied for.\r\nIn the section Program Requirements, you will find important information about the admission quota on foreign applicants and specific requirements related to our program. Two rounds of application are possible to enter our program in September (see specific dates for the applications at the bottom of the same webpage)\r\nThe section How to Apply provides links to the Online Application System for International Degree Students. Click Apply Now and follow the instruction after you make sure you have all required documents ready.\r\nIn general, for a September Entry two rounds of application are possible. Carefully monitor the dates for a September Entry.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-17T22:56:20+08:00"
+    },
+    {
       "path": "external.html",
       "title": "External courses",
       "description": "List of courses available in English and by topic (delivered by teachers at IONTU)",
@@ -21,7 +29,7 @@
       "title": "News",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-01T22:58:27+08:00"
+      "last_modified": "2021-02-17T22:57:13+08:00"
     },
     {
       "path": "institute.html",
@@ -29,7 +37,7 @@
       "description": "Institute of Oceanography, National Taiwan University (IONTU)",
       "author": [],
       "contents": "\r\n\r\nContents\r\nPresentation\r\nFacilities\r\nDivisions\r\nVision\r\n\r\nPresentation\r\nFunded in 1968, our institute (IONTU) is dedicated to interdisciplinary research and education in marine sciences. The institute is located at the northern part of NTU campus at the heart of Taipei, the capital of Taiwan. NTU is the most prestigious comprehensive university in Taiwan and one of the top-ranked universities in Asia and the world (QS Global World Ranking: 66 ). Today, NTU represnts a lively international campus, where you can enjoy your life in a friendly country inspired by a rich history and ambitions for its future.\r\nLocation of IONTU\r\nIONTU is located at the northernmost part of the campus. It is only few hundred meters away from the sport center and directly facing the ‘Moon Lake’, the best location on the campus to picnic or have a break.\r\n\r\n\r\n\r\n{\"x\":{\"options\":{\"crs\":{\"crsClass\":\"L.CRS.EPSG3857\",\"code\":null,\"proj4def\":null,\"projectedBounds\":null,\"options\":{}}},\"calls\":[{\"method\":\"addProviderTiles\",\"args\":[\"Stamen.Toner\",null,null,{\"errorTileUrl\":\"\",\"noWrap\":false,\"detectRetina\":false}]},{\"method\":\"addMarkers\",\"args\":[25.021295,121.537338,null,null,null,{\"interactive\":true,\"draggable\":false,\"keyboard\":true,\"title\":\"\",\"alt\":\"\",\"zIndexOffset\":0,\"opacity\":1,\"riseOnHover\":false,\"riseOffset\":250},\"Institute of Oceanography\",null,null,null,null,{\"interactive\":false,\"permanent\":false,\"direction\":\"auto\",\"opacity\":1,\"offset\":[0,0],\"textsize\":\"10px\",\"textOnly\":false,\"className\":\"\",\"sticky\":true},null]}],\"limits\":{\"lat\":[25.021295,25.021295],\"lng\":[121.537338,121.537338]}},\"evals\":[],\"jsHooks\":[]}\r\nFigure 1: Interactive map of the location of IONTU\r\n\r\n\r\n\r\nFacilities\r\nIONTU has a building surface of 4,900 m2. It is a small four floors building composed of one lecture hall of 250 seats, two meeting roos of 50 seats, five classrooms, 29 laboratories, and an exhibition hall. The institute receives technical support from the Marine Exploration InStrument Center situated right beside IONTU\r\n\r\n\r\n\r\nFigure 2: image to replace\r\n\r\n\r\n\r\nThe institute maintains the ‘Ocean Data Bank’ the largest data base about marine envionment in Taiwan. IONTU manages its own research vessel ‘New Ocean Researcher I’ which is a ship of XX m long and XX tonnes equipped with scientific equipments such as a large ECA 800 Remotely Operated Vehicle. The ship is used for scientific research and education.\r\nDivisions\r\nThe institute is divided in four main divisions: physical oceanography, chemical oceanography, marine geology and geophysics, marine biology and fisheries. They directly respond to the need of interdisciplinary research in marine sciences.\r\nVision\r\nIONTU aims to:\r\npromote cross-disciplinary, multiscale research and education in marine sciences,\r\nencourage globalization by developing international research projects,\r\nrepresents a pole of attractivity for marine research in Asia and through the word.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-31T12:54:19+08:00"
+      "last_modified": "2021-02-17T23:01:35+08:00"
     },
     {
       "path": "master.html",
@@ -60,6 +68,14 @@
       "author": [],
       "contents": "\r\n\r\nContents\r\nCore Curriculum (all divisions)\r\nMarine Biology and Fisheries\r\nMarine Geology & Geosphysics\r\nChemical Oceanography\r\nPhysical Oceanography\r\n\r\nRequires classes are compulsory. They represent 11 credits on the 24 credits you need to accumulate along the two years of your master degree. This is in addition of a Master thesis.\r\nCore Curriculum (all divisions)\r\nIntroduction to Marine Biology (OCEAN 5038) - 1 creditDescription: This course introduces all kinds of marine organisms including phytoplankton, zooplankton, marcoagle, invertebrae, vertebrae and various and ecosystem including tidal zones, estuaries, continental shelf, coral reefs, pelgaic ocean, and deep sea.\r\nInstructor: Jen Chieh SHIAO\r\nMarine Biology and Fisheries\r\nSeminar Master - Year 2 (OCEAN 8009) - 2 creditsDescription: Presentation of scientific paper by students\r\nInstructor: Vianney DENIS; Jen Chieh SHIAO; Wei-Jen CHEN; Yi-Jay CHANG\r\nMarine Geology & Geosphysics\r\nChemical Oceanography\r\nPhysical Oceanography\r\n\r\n\r\n\r\n",
       "last_modified": "2021-01-31T12:54:25+08:00"
+    },
+    {
+      "path": "tuition.html",
+      "title": "Tuition fees & fellowships",
+      "description": "Things you must spend, things you must get",
+      "author": [],
+      "contents": "\r\nNTU offers affordable tuition fees. The amount students are required to pay depends on the level of their degree, the year of their study, and the student identity, as different rates apply to International Students and Overseas Chinese, Hong Kong and Macau, and Chinese Students.For the specific cost of our Master Program accoding the category you belong, check here at the section Master’s and PhD Degrees and for the category Science, Bio-resources & Agriculture, Life Science\r\nIn addition to the tuition fees, you should consider the living cost. Despite being a modern metropolis, life in Taipei is very affordable. You will find at this link an overview of the estimated cost of living per semester (aside from tuition).\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-17T23:10:46+08:00"
     }
   ],
   "collections": ["posts/posts.json"]

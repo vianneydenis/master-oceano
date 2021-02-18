@@ -81,28 +81,31 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Master Oceanography: News</title>
+  <title>Master Oceanography: Tuition fees &amp; fellowships</title>
   
+  <meta property="description" itemprop="description" content="Things you must spend, things you must get"/>
   
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
   <link rel="icon" type="image/png" href="images/logo.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Master Oceanography: News"/>
+  <meta property="og:title" content="Master Oceanography: Tuition fees &amp; fellowships"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Things you must spend, things you must get"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Master Oceanography"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Master Oceanography: News"/>
+  <meta property="twitter:title" content="Master Oceanography: Tuition fees &amp; fellowships"/>
+  <meta property="twitter:description" content="Things you must spend, things you must get"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["News"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Tuition fees & fellowships"]},{"type":"character","attributes":{},"value":["Things you must spend, things you must get"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2325,12 +2328,12 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"News","authors":[]}
+{"title":"Tuition fees & fellowships","description":"Things you must spend, things you must get","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2369,7 +2372,7 @@ How to Apply
 </button>
 <div class="nav-dropdown-content">
 <a href="application.html">Ellibiliy &amp; application</a>
-<a href="tuition.html">Tuition &amp; Financial Support</a>
+<a href="tuition.html">Tuition &amp; Fellowships</a>
 </div>
 </div>
 <a href="advices.html">Useful Links</a>
@@ -2380,191 +2383,18 @@ How to Apply
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="News">News</h1>
-<a href="posts/2021-01-31-new-website/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["test"]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 31, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Vianney DENIS</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-01-31-new-website/new-website_files/figure-html5/unnamed-chunk-1-1.png"/>
-</div>
-<div class="description">
-<h2>New Website - try</h2>
-<div class="dt-tags">
-<div class="dt-tag">test</div>
-</div>
-<p>Beta Release Website</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:articles">articles</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:test">test</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>News</h1>
+<h1>Tuition fees &amp; fellowships</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Things you must spend, things you must get</p>
 </div>
 
 
 <div class="d-article">
+<p>NTU offers affordable tuition fees. The amount students are required to pay depends on the level of their degree, the year of their study, and the student identity, as different rates apply to International Students and Overseas Chinese, Hong Kong and Macau, and Chinese Students.For the specific cost of our Master Program accoding the category you belong, check <a href="https://oia.ntu.edu.tw/prospective-students/study-at-ntu-vvh9/fees-and-financing-hpk6/tuition-fees-xkz2">here</a> at the section <em>Master’s and PhD Degrees</em> and for the category <strong>Science, Bio-resources &amp; Agriculture, Life Science</strong></p>
+<p>In addition to the tuition fees, you should consider the living cost. Despite being a modern metropolis, life in Taipei is very affordable. You will find at this <a href="https://oia.ntu.edu.tw/prospective-students/study-at-ntu-vvh9/fees-and-financing-hpk6/cost-of-living-q2qx">link</a> an overview of the estimated cost of living per semester (aside from tuition).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
