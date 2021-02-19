@@ -15,7 +15,7 @@ Our master program is designed to prepare students, in two years, for a career i
 
 ## Statistics
 
-From our record on the devenir of the students, about XX % are working in a realated field 1 yr after graduation. 
+<span style="background-color: #FFFF00">From our record on the devenir of the students, about XX % are working in a realated field 1 yr after graduation. </span>
 
 ```{r, echo=F, fig.cap="Devenir of IONTU studnet 1 yr after graduation"}
 library(plotrix)
@@ -34,10 +34,6 @@ pie3D.labels(a, radius = 0.9, labels = lbls, labelcex = 0.7)
 The fundamental requirement for admission to the program is a strong motivation for ocean sciences and an aptitude for original research. The preparation for admission to our graduate program should comprise an undegraduate degree in the discipline  of one of the program specialties or an an equivalent background. If a student does not have a degree in one of these areas, the student must demonstrate that they have taken the classes necessary to do their research. It is strongly recommended that students applying prealably contact a sponsor professor to discuss the relevance of the study they want to develop. A list of the professor by speciality together with their contact is available on the website of the Institute of Oceanography (http://www.oc.ntu.edu.tw/oceng). It is possible to have a project co-advised with external researcher of the institute. In this case, it is also strongly recommended that the student discuss about the possibility to be co-advised. 
 
  
-
-
-
-
 ## Graduation
 
 A minimum of 24 credits plus a master thesis are required to graduate. 

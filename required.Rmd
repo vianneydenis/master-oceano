@@ -1,12 +1,22 @@
 ---
 title: "Required classes"
 description: |
-  List of required courses in English and by division
+  List of required courses and by division. Classes delivered in English or with an possible alternative for foreigner students to get the corresponing credits
 ---
 
 Requires classes are compulsory. They represent **11 credits on the 24 credits** you need to accumulate along the two years of your master degree. This is in addition of a Master thesis.
 
-## Core Curriculum (all divisions)
+
+## Core Curriculum (all divisions) 
+
+
+<details>
+<summary><span style="color:#1D5287">**Fieldwork in Marine Biology**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 1 credit</summary>
+**Description**: <span style="background-color: #FFFF00"> XXXX</span>
+
+**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
+</details>
+
 
 <details>
 <summary><span style="color:#1D5287">**Introduction to Marine Biology**</span> ([OCEAN 5038]()) - 1 credit</summary>
@@ -16,11 +26,49 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 </details>
 
 
+<details>
+<summary><span style="color:#1D5287">**Physical Oceanography**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 1 credit</summary>
+**Description**: <span style="background-color: #FFFF00"> XXXX</span>
+
+**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Introduction to Marine Geology**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 1 credit</summary>
+**Description**: <span style="background-color: #FFFF00"> XXXX</span>
+
+**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Introduction to Marine Chemistry**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 1 credit</summary>
+**Description**: <span style="background-color: #FFFF00"> XXXX</span>
+
+**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Fundamentals of Oceanic Statistics**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 2 credits</summary>
+**Description**: <span style="background-color: #FFFF00"> XXXX</span>
+
+**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
+</details>
+
+
 ## Marine Biology and Fisheries
 
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 2**</span> ([OCEAN 8009]()) - 2 credits</summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([OCEAN 8009]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 2**</span> ([OCEAN 8009]()) - 4 credits (2 semesters </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: Vianney DENIS; Jen Chieh SHIAO; Wei-Jen CHEN; Yi-Jay CHANG
@@ -29,6 +77,48 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 
 ## Marine Geology & Geosphysics
 
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
 ## Chemical Oceanography
 
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
 ## Physical Oceanography
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>
+
+<details>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+**Description**: Presentation of scientific paper by students
+
+**Instructor**: <span style="background-color: #FFFF00">PENDING</span>
+</details>

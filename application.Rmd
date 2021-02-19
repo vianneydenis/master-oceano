@@ -4,6 +4,8 @@ description: |
  Things you must check before applying and how to apply
 ---
 
+<span style="background-color: #FFFF00">All links to NTU websitelink automatically to the Chinese version of the homepage. I could not fix this issue for now, but still want to try becaus this will be much better than just write go the NTU website</span>
+
 Overseas students applying to NTU are divided into **International Students**, **Overseas Chinese Students**, **Hong Kong and Macao Students**, and **Mainland Chinese Students**. The application process, tuition fees, and available degrees may differ depending on students' identities. Before you start your application to NTU, it is important to check your **[eligibility](https://oia.ntu.edu.tw/apply-to-ntu/degree-student/eligibility)** and decide the application methods you would like to use to submit your application (check important Note for students from Mainland China available on the same page).
 
 International applicants with a **Bachelor's degree** should be eligible to apply to our Master’s Degree program; in addition, candidate are strongly advised **to contact possible tutor** prior their application in order to discuss the relevance of the research topics he wants to develop. Candidates with strong motivation and a certain scientific maturity will be an advantage at the selection of elligible applications.
