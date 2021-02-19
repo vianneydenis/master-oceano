@@ -10,10 +10,7 @@ Funded in 1968, our institute (**IONTU**) is dedicated to interdisciplinary rese
 
 *Location of IONTU* 
 
-IONTU is located at the northernmost part of the campus. It is only few hundred meters away from the sport center and directly facing the 'Moon Lake', the best location on the campus to picnic or have a break.  
-
-
-```{r, echo=F, fig.cap="Interactive map of the location of IONTU"}
+```{r, echo=F, fig.align = "default", fig.cap="Interactive map of IONTU's location"}
 library(leaflet)
 leaflet() %>%
   addProviderTiles(providers$Stamen.Toner) %>%
@@ -21,15 +18,23 @@ leaflet() %>%
   addMarkers(lng=121.537338, lat=25.021295, popup="Institute of Oceanography")
 ```
 
-## Facilities
 
-**IONTU** has a building surface of 4,900 m^2^. It is a small four floors building composed of one lecture hall of 250 seats, two meeting roos of 50 seats, five classrooms, 29 laboratories, and an exhibition hall. The institute receives technical support from the Marine Exploration InStrument Center situated right beside IONTU
+IONTU is located at the northernmost part of the campus. It is only few hundred meters away from the sport center and directly facing the 'Moon Lake', the best location on the campus to picnic or have a break. 
 
 
-```{r, echo=FALSE, out.width="50%", fig.cap="image to replace"}
-knitr::include_graphics("images/IONTU_Building.jpg")
+```{r, echo=FALSE, fig.show = "hold", out.width = "50%", fig.align = "default", fig.cap="The Institute of Oceanography"}
+knitr::include_graphics("images/IONTU_Building_A.jpg")
 ```
 
+
+
+## Facilities
+
+**IONTU** has a building surface of 4,900 m^2^. It is a small four floors building composed of one lecture hall of 250 seats, two meeting rooms of 50 seats, five classrooms, 29 laboratories, and an exhibition hall. The institute receives technical support from the Marine Exploration InStrument Center situated right beside IONTU
+
+```{r, echo=FALSE, fig.show = "hold", out.width = "50%", fig.align = "center", fig.cap="IONTU interactive classroom"}
+knitr::include_graphics("images/IONTU_classroom.jpg")
+```
 
 The institute maintains the 'Ocean Data Bank' the largest data base about marine envionment in Taiwan. IONTU manages its own research vessel 'New Ocean Researcher I' which is a ship of XX m long and XX tonnes equipped with scientific equipments such as a large ECA 800 Remotely Operated Vehicle. The ship is used for scientific research and education.
 
@@ -46,6 +51,5 @@ IONTU aims to:
 + encourage globalization by developing international research projects,
 
 + represents a pole of attractivity for marine research in Asia and through the word.
-
 
 

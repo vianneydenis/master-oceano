@@ -3,6 +3,14 @@ title: "Master Oceanography"
 theme: theme.css
 favicon: images/logo.png
 base_url: https://github.com/vianneydenis/master-oceano.git
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    citations: false
+    disqus: master-oceano
+    share: [twitter, facebook]
 creative_commons: CC BY
 output_dir: "."
 navbar:
@@ -29,11 +37,9 @@ navbar:
       href: thesis.html         
     - text: "How to Apply"
       menu:
-        - text: "Requirements"
-          href: requirement.html
-        - text: "Application"
+        - text: "Ellibiliy & application"
           href: application.html
-        - text: "Tuition & Financial Support"
+        - text: "Tuition & Fellowships"
           href: tuition.html
     - text: "Useful Links"
       href: advices.html

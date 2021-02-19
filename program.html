@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,14 +32,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,9 +50,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; } /* Alert */
 code span.an { color: #008000; } /* Annotation */
@@ -83,7 +85,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Master Oceanography: Our program</title>
   
-  <meta property="description" itemprop="description" content="Master of Oceanography"/>
+  <meta property="description" itemprop="description" content="Master of Oceanography of the Institute of Oceanography"/>
   
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
   <link rel="icon" type="image/png" href="images/logo.png"/>
@@ -92,20 +94,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Master Oceanography: Our program"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Master of Oceanography"/>
+  <meta property="og:description" content="Master of Oceanography of the Institute of Oceanography"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Master Oceanography"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Master Oceanography: Our program"/>
-  <meta property="twitter:description" content="Master of Oceanography"/>
+  <meta property="twitter:description" content="Master of Oceanography of the Institute of Oceanography"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Our program"]},{"type":"character","attributes":{},"value":["Master of Oceanography"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Our program"]},{"type":"character","attributes":{},"value":["Master of Oceanography of the Institute of Oceanography"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -444,8 +446,15 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     top: 0;
   }
   
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+  
   </style>
   
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -553,19 +562,21 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
             var results = fuse.search(query, searchOptions);
             callback(results
               .map(function(result) { return result.item; })
-              .filter(function(item) { return !!item.description; })
             );
           },
           templates: {
             suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
               var html = `
                 <div class="search-item">
                   <h3>${suggestion.title}</h3>
                   <div class="search-item-description">
-                    ${suggestion.description}
+                    ${suggestion.description || ''}
                   </div>
                   <div class="search-item-preview">
-                    <img src="${suggestion.preview ? offsetURL(suggestion.preview) : ''}"</img>
+                    ${img}
                   </div>
                 </div>
               `;
@@ -588,6 +599,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   </script>
   
   <style type="text/css">
+  
+  .nav-search {
+    font-size: x-small;
+  }
   
   /* Algolioa Autocomplete */
   
@@ -663,6 +678,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   }
   
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
     margin-block-start: 0;
     margin-block-end: 5px;
   }
@@ -890,6 +906,11 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     text-decoration: underline;
   }
   
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+  
   @media(min-width: 768px) {
   
   d-article pre,
@@ -1044,6 +1065,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   
   div.hanging-indent{
     margin-left: 1em; text-indent: -1em;
+  }
+  
+  /* Citation hover box */
+  
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+  
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
   }
   
   
@@ -1711,7 +1743,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       var layout = $(this).attr('data-layout');
   
       // apply layout to markdown level block elements
-      var elements = $(this).children().not('div.sourceCode, pre, script');
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
       elements.each(function(i, el) {
         var layout_div = $('<div class="' + layout + '"></div>');
         if (layout_div.hasClass('shaded')) {
@@ -1826,6 +1858,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       // move appendix-bottom entries to the bottom
       $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
       $('.appendix-bottom').remove();
+  
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
   
       // clear polling timer
       clearInterval(tid);
@@ -2172,7 +2218,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   
   d-article div.sourceCode code,
   d-article pre code {
-  	font-family: var(--mono-font), var(--mono-default);
+    font-family: var(--mono-font), var(--mono-default);
   }
   
   
@@ -2197,76 +2243,78 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   }
   
   /*-- BODY --*/
-  /* only text inside of <p> tags */
-  d-article > p {
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
     color: var(--body-color, rgba(0, 0, 0, 0.8));
     font-size: var(--body-size, 1.06rem);
   }
   
+  
   /*-- CODE --*/
   d-article div.sourceCode code,
   d-article pre code {
-  	font-size: var(--code-size, 14px);
+    font-size: var(--code-size, 14px);
   }
   
   /*-- ASIDE --*/
   d-article aside {
-  	font-size: var(--aside-size, 12px);
-  	color: var(--aside-color, rgba(0, 0, 0, 0.6));
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
   }
   
   /*-- FIGURE CAPTIONS --*/
   figure .caption,
   figure figcaption,
   .figure .caption {
-  	font-size: var(--fig-cap-size, 13px);
-  	color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
   }
   
   /*-- METADATA --*/
   d-byline h3 {
-  	font-size: var(--heading-size, 0.6rem);
-  	color: var(--heading-color, rgba(0, 0, 0, 0.5));
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
   }
   
   d-byline {
-  	font-size: var(--body-size, 0.8rem);
-  	color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
   }
   
   d-byline a,
   d-article d-byline a {
-  	color: var(--body-color, rgba(0, 0, 0, 0.8));
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
   }
   
   /*-- TABLE OF CONTENTS --*/
   .d-contents nav h3 {
-  	font-size: var(--heading-size, 18px);
+    font-size: var(--heading-size, 18px);
   }
   
   .d-contents nav a {
-  	font-size: var(--contents-size, 13px);
+    font-size: var(--contents-size, 13px);
   }
   
   /*-- APPENDIX --*/
   d-appendix h3 {
     font-size: var(--heading-size, 15px);
-  	color: var(--heading-color, rgba(0, 0, 0, 0.65));
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
   }
   
   d-appendix {
     font-size: var(--text-size, 0.8em);
-  	color: var(--text-color, rgba(0, 0, 0, 0.5));
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
   }
   
   d-appendix d-footnote-list a.footnote-backlink {
-  	color: var(--text-color, rgba(0, 0, 0, 0.5));
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
   }
   
   /*-- WEBSITE HEADER + FOOTER --*/
   .distill-site-header .title {
-  	font-size: var(--title-size, 18px);
-  	font-family: var(--navbar-font), var(--heading-default);
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
   }
   
   .distill-site-header a,
@@ -2274,27 +2322,36 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     font-family: var(--navbar-font), var(--heading-default);
   }
   
-  .distill-site-header a:hover {
-  	color: var(--hover-color, white);
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+  
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
   }
   
   .distill-site-header {
-  	font-size: var(--text-size, 15px);
-  	color: var(--text-color, rgba(255, 255, 255, 0.8));
-  	background-color: var(--bkgd-color, #0F2E3D);
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
   }
   
   .distill-site-footer {
-  	font-size: var(--text-size, 15px);
-  	color: var(--text-color, rgba(255, 255, 255, 0.8));
-  	background-color: var(--bkgd-color, #0F2E3D);
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
   }
   
   .distill-site-footer a:hover {
-  	color: var(--hover-color, white);
+    color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
@@ -2333,7 +2390,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Our program","description":"Master of Oceanography","authors":[]}
+{"title":"Our program","description":"Master of Oceanography of the Institute of Oceanography","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2371,9 +2428,8 @@ How to Apply
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="requirement.html">Requirements</a>
-<a href="application.html">Application</a>
-<a href="tuition.html">Tuition &amp; Financial Support</a>
+<a href="application.html">Ellibiliy &amp; application</a>
+<a href="tuition.html">Tuition &amp; Fellowships</a>
 </div>
 </div>
 <a href="advices.html">Useful Links</a>
@@ -2389,7 +2445,7 @@ How to Apply
 <h1>Our program</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Master of Oceanography</p>
+<p><p>Master of Oceanography of the Institute of Oceanography</p></p>
 </div>
 
 
@@ -2400,12 +2456,28 @@ How to Apply
 <ul>
 <li><a href="#presentation">Presentation</a></li>
 <li><a href="#objectives">Objectives</a></li>
+<li><a href="#statistics">Statistics</a></li>
+<li><a href="#admission">Admission</a></li>
 <li><a href="#graduation">Graduation</a></li>
 </ul>
 </nav>
 </div>
 <h2 id="presentation">Presentation</h2>
+<p>Our master program was created in 19XX and has since formed over xxxx students. It is composed of four specialities: marine biology and fisheries, physical ocenagraphy, chemical oceanography, marine geology and geophysics that will provide the students with expertise in one of those areas.</p>
 <h2 id="objectives">Objectives</h2>
+<p>Our master program is designed to prepare students, in two years, for a career in marine research, teaching, and other environmentally related endeavors. After graduation, some may continue and purchase a Ph.D. in a related field. To contrast, some may decide to look at professional opportunities.</p>
+<h2 id="statistics">Statistics</h2>
+<p><span style="background-color: #FFFF00">From our record on the devenir of the students, about XX % are working in a realated field 1 yr after graduation. </span></p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="program_files/figure-html5/unnamed-chunk-1-1.png" alt="Devenir of IONTU studnet 1 yr after graduation" width="624" />
+<p class="caption">
+Figure 1: Devenir of IONTU studnet 1 yr after graduation
+</p>
+</div>
+</div>
+<h2 id="admission">Admission</h2>
+<p>The fundamental requirement for admission to the program is a strong motivation for ocean sciences and an aptitude for original research. The preparation for admission to our graduate program should comprise an undegraduate degree in the discipline of one of the program specialties or an an equivalent background. If a student does not have a degree in one of these areas, the student must demonstrate that they have taken the classes necessary to do their research. It is strongly recommended that students applying prealably contact a sponsor professor to discuss the relevance of the study they want to develop. A list of the professor by speciality together with their contact is available on the website of the Institute of Oceanography (<a href="http://www.oc.ntu.edu.tw/oceng" class="uri">http://www.oc.ntu.edu.tw/oceng</a>). It is possible to have a project co-advised with external researcher of the institute. In this case, it is also strongly recommended that the student discuss about the possibility to be co-advised.</p>
 <h2 id="graduation">Graduation</h2>
 <p>A minimum of 24 credits plus a master thesis are required to graduate.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
