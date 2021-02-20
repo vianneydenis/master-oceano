@@ -1,7 +1,7 @@
 ---
 title: "The Thesis"
 description: |
- A  thesis represents one of the major accomplishment along degree
+ A  thesis represents one of the major accomplishment of our master degree
 ---
 
 <span style="background-color: #FFFF00">Description</span>

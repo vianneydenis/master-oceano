@@ -37,7 +37,7 @@ navbar:
       href: thesis.html         
     - text: "How to Apply"
       menu:
-        - text: "Ellibiliy & application"
+        - text: "Eligibiliy & application"
           href: application.html
         - text: "Tuition & Fellowships"
           href: tuition.html
