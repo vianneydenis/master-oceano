@@ -13,7 +13,10 @@ Those courses ...
 
 
 <details>
-<summary><span style="color:#1D5287">**English Writing in Marine Sciences**</span> ([OCEAN 7168]()) - 3 credits</summary>
+
+<summary><span style="color:#1D5287">**English Writing in Marine Sciences**</span> <a href=".\syllabus\OCEAN7168.pdf"target="_blank"> (OCEAN 7168)</a> - 3 credits </summary>
+
+
 **Description**: this seminar course is designed to improve IONTU graduate students’ communication skills through writing in English. Students will utilize examples from the textbook, “Writing science: How to write papers that get cited and proposals that get funded” by Joshua Schimel. I will also share comments and revisions to scientific manuscripts that I collected over the years. The class starts by having students write a short Facebook post about their own research. Students will lean to expand their Facebook post into a one-page-long (800-850 words) article. Throughout the class, students will apply writing styles and techniques to edit their article, including ways to condense their article to only 300-350 word long. Each student is also required to read and analyze four published scientific papers of their own choice: one from a specialist journal written by a leader recognized in their field and a good writer, one typical paper from a specialized journal, one review paper, and one article from Nature or Science. The course will also incorporate peer-review practices; students will learn to recognize strengths and weakness of other students’ writing and give constructive comments to help improve each other’s writing. This is exactly what scientists do routinely: we review and give constructive comments to other’s manuscripts and proposals to help the science community grow. Students who have already had writing projects (such as an abstract, manuscript, or dissertation) can also practice analyzing and editing these drafts. We will also invite a guest lecturer from NTU’s Department of Foreign Languages and Literature or from NTNU’s English Department to talk about common English mistakes made by Taiwanese students and ways to improve this.
 
 **Instructor**: Huei-Ting (Tina) Lin
@@ -21,7 +24,10 @@ Those courses ...
 
 
 <details>
-<summary><span style="color:#1D5287">**Scientific Communication in English**</span> ([OCEAN 7192]()) - 1 credit</summary>
+<summary><span style="color:#1D5287">**Scientific Communication in English**</span>  <a href=".\syllabus\OCEAN7192.pdf"target="_blank"> (OCEAN 7192)</a> - 1 credit</summary>
+
+
+
 **Description**: This course is designed to guide graduate students in communicating science professionally, with emphasis on training/practicing. More than half of the class hours will be on discussion and implementation of theories. The second half of the semester will focus on scientific/thesis writing skills. For IONTU students, this can serve as a supplemental course to each division’s seminar course. Course designed for students with background in science. Objective are: 1) Students get to practice scientific communication skills, including poster and oral presentations. (2) Students learn to apply the theories learnt in class or elsewhere. (3) Students get to practice scientific writing in English, as well as English skills in scientific correspondence and conferences.  
 
 **Instructor**: Sze Ling HO
@@ -262,7 +268,8 @@ assessment. The course materials are mainly based on published papers in interna
 
 
 <details>
-<summary><span style="color:#1D5287">**Environmental chemistry and sustainable management of coral reefs (field visit included)**</span> ([OCEAN 7193]()) - 3 credits</summary>
+<summary><span style="color:#1D5287">**Environmental chemistry and sustainable management of coral reefs (field visit included)**</span> <a href=".\syllabus\OCEAN7193.pdf"target="_blank"> (OCEAN 7193)</a>  - 3 credits</summary>
+
 **Description**: This advanced course is designed to train graduate students and advanced undergraduate students to obtain knowledge about environmental chemistry, focusing on coral reef environmental chemistry. The students will become skillful to channel the most updated scientific research results with citizen scientists, e.g. residential volunteers. Through this course, we will search through the literature and to identify key parameters for coral reef environmental monitoring. Students will help to analyze samples collected by our collaborating citizen scientists, to interpret the data based on literature information, and to present the results to citizen scientists at the beach site at the end of the semester.
 
 **Instructor**: Huei-Ting (Tina) Lin
