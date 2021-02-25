@@ -12,11 +12,11 @@ output:
     self_contained: false
 ---
 
-```{r, layout="l-body-outset", preview=TRUE}
+```{r,echo=F, layout="l-body-outset", preview=TRUE}
 library(ggplot2)
 ggplot(diamonds, aes(carat, price)) + geom_smooth() +
   facet_grid(~ cut)
 ```
 
-This post is a test for the beta version. The plot has no realtionship with this post but it is good to know about diamond
+This post is a test for the beta version. The plot has no relationship with this post but it is good to know about diamond
 
