@@ -1,5 +1,28 @@
 [
   {
+    "path": "posts/2021-03-22-cycle-in-coral-reefs/",
+    "title": "Talk Announcement",
+    "description": {},
+    "author": [
+      {
+        "name": "Vianney DENIS",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-22",
+    "categories": [
+      "conference",
+      "marine biology",
+      "coral reef"
+    ],
+    "contents": "\r\nCarbon and nitrogen cycles in coral reefs: toward linking organisms and the ecosystem\r\nby Yasuaki Tanaka\r\nKeywords: coral ecophysiology, symbiosis, stable isotope tracers, dissolved organic matter, biogeochemistry, environmental change\r\nLanguage: English\r\nOn-line: Yes\r\nDate: 2021/3/26 (Friday)\r\nTime: 15:30-17:00\r\nLocation: Auditorium of the Institute of Oceanography (2nd floor), National Taiwan Universiy\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-03-22-cycle-in-coral-reefs/talk-cycle.png",
+    "last_modified": "2021-03-22T17:06:03+08:00",
+    "input_file": "cycle-in-coral-reefs.utf8.md",
+    "preview_width": 530,
+    "preview_height": 386
+  },
+  {
     "path": "posts/2021-01-31-new-website/",
     "title": "New Website - try",
     "description": "Beta Release Website",
