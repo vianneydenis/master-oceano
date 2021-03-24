@@ -208,7 +208,7 @@ assessment. The course materials are mainly based on published papers in interna
 <summary><span style="color:#1D5287">**Computer-Intensive Statistics in Ecology**</span> <a href=".\syllabus\OCEAN5052.pdf"target="_blank"> (OCEAN 5052)</a> - 3 credits </summary>
 **Description**: This is an advanced course intended for senior undergraduate and graduate students with knowledge of basic statistics including random variables, analysis of variance, regression analysis, and rank-based non-parametric statistics. We will discuss several computer-intensive statistical methods. We will discuss the theory, assumption, and application of these methods in ecological problems. The course is designed for hand-on work. Students need to get familiar with at least one computer language to do the statistics. Most of work can be done with MatLab, but any other programming language will do equally well. Sometimes, we will use well-developed software when the computation is too complicated and beyond the basic level. There will be dedicated time every week for students to present their works and to discuss the application of these methods on real world problems.
 
-**Instructor**: Chih-hao HSIEH; Yi-Jay CHANG
+**Instructor**: Chih-hao HSIEH; Hui-Yu WANG; Yi-Jay CHANG
 </details>
 
 <details>
