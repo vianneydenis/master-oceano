@@ -7,7 +7,7 @@ output: pdf_document
 
 **Time**: Tusday 9:10- 12:10
 
-**Lecturers**: Chih-Hao HSIEH & Yi-Jay CHANG
+**Lecturers**: Chih-hao HSIEH; Hui-Yu WANG; Yi-Jay CHANG
 
 **Credits**: 3 (including practice)
 
