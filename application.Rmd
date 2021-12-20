@@ -4,16 +4,32 @@ description: |
  Things you must check before applying and how to apply
 ---
 
-<span style="background-color: #FFFF00">All links to NTU websitelink automatically to the Chinese version of the homepage. I could not fix this issue for now, but still want to try becaus this will be much better than just write go the NTU website</span>
+## Eligibility
 
-Overseas students applying to NTU are divided into **International Students**, **Overseas Chinese Students**, **Hong Kong and Macao Students**, and **Mainland Chinese Students**. The application process, tuition fees, and available degrees may differ depending on students' identities. Before you start your application to NTU, it is important to check your **[eligibility](https://oia.ntu.edu.tw/apply-to-ntu/degree-student/eligibility)** and decide the application methods you would like to use to submit your application (check important Note for students from Mainland China available on the same page).
+Overseas students applying to NTU are divided into **International Students**, **Overseas Chinese/Hong Kong and Macao Students**, and **Mainland Chinese Students**. The application process, tuition fees, and available degrees may differ depending on students' identities. Before you start your application to NTU, it is important to check your **[eligibility](https://admissions.ntu.edu.tw/apply/student-status/)** and decide the application methods you would like to use to submit your application. 
 
-International applicants with a **Bachelor's degree** should be eligible to apply to our Master’s Degree program; in addition, candidate are strongly advised **to contact possible tutor** prior their application in order to discuss the relevance of the research topics he wants to develop. Candidates with strong motivation and a certain scientific maturity will be an advantage at the selection of elligible applications.
 
-Once you checked your eligibility, contact a possible advisor, you should decide your the time you want to join our master. The first semester classes start in September and second semester classes start in February. At IONTU we request master students to start at <span style="background-color: #FFFF00">the first semester in September</span>. On the same page you checked your [eligibility](https://oia.ntu.edu.tw/apply-to-ntu/degree-student/eligibility), open the link to **September Entry**. 
+## Application
 
-1. You find in the section *Before Applying* an online document you must read carefully **Admission Guidelines for International Degree Students** and another link to check the [scholarships](https://oia.ntu.edu.tw/prospective-students/study-at-ntu-vvh9/scholarships) you can applied for. 
+To apply, go to the National Taiwan University's website dedicated to the Overseas Student Admission (https://admissions.ntu.edu.tw/apply/). If you apply as an **International Student** further [check](https://admissions.ntu.edu.tw/apply/international-applications/) for the [Academic Requirements^1^](https://admissions.ntu.edu.tw/apply/academic-requirements/); [Language Proficiency Requirements](https://admissions.ntu.edu.tw/apply/language-proficiency-requirements/); and Admission Guidelines^2^. On the same [page](https://admissions.ntu.edu.tw/apply/international-applications/), you will find information for the application procedures.
 
-2. In the section *Program Requirements*, you will find important information about the admission quota on foreign applicants and [specific requirements](http://oiasystem.ntu.edu.tw/admission/foreign/requirement/dept.detail/id/38/degree/M/sn/1321) related to our program. Two rounds of application are possible to enter our program in September (see specific dates for the applications at the bottom of the same webpage)
+^1^ *International applicants with a valid __Bachelor's degree__ should be eligible to apply to our Master’s Degree program; in addition, candidates are strongly advised __to contact possible advisor__ prior their application in order to discuss the relevance of the research topics they want to develop. Candidates with strong motivation and a certain scientific maturity will be an advantage at the selection of eligible applications.*
 
-3. The section *How to Apply* provides links to the **Online Application System for International Degree Students**. Click **Apply Now** and follow the instruction after you make sure you have all required documents ready. 
+^2^ *The first semester starts in September and the second semester  start in February. At our institute, we request our international master students to consider for the September entry admission.* 
+
+## Scholarships
+
+NTU has many scholarships available for prospective students that can be applied for along with submitting your application. The government of Taiwan, other organizations, and your respective colleges also provide scholarships for international students. Being offered a scholarship does not guarantee admission to NTU, and vice versa.
+
+A list of scholarships available and how to apply them is available at https://admissions.ntu.edu.tw/apply/scholarships/. 
+
+## Contact
+
+The National Taiwan University [Office of International Affairs](https://oia.ntu.edu.tw/en/) is here to help. You will find contact information for questions about your admission at the bottom of this [page](https://admissions.ntu.edu.tw/overseas-students/)   
+
+Further information about admission process 
+
+https://admissions.ntu.edu.tw/overseas-students/
+
+
+

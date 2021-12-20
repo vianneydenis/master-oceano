@@ -1,10 +1,10 @@
 ---
 title: "Required classes"
 description: |
-  List of required courses and by division. Classes delivered in English or with an possible alternative for foreigner students to get the corresponing credits
+  List of required courses by division. Classes delivered in English (*) or with an existing alternative (**) for non sinophone students to get the corresponding credits
 ---
 
-Requires classes are compulsory. They represent **11 credits on the 24 credits** you need to accumulate along the two years of your master degree. This is in addition of a Master thesis.
+<mark>Required classes are compulsory. They represent **11 credits on the 24 credits** you need to accumulate along the two years of your master degree. This is in addition of a Master thesis.</mark>
 
 
 ## Core Curriculum (all divisions) 
@@ -60,7 +60,7 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([OCEAN 8009]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([OCEAN 8009]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
@@ -68,7 +68,7 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 2**</span> ([OCEAN 8009]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 2***</span> ([OCEAN 8009]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: Vianney DENIS; Jen Chieh SHIAO; Wei-Jen CHEN; Yi-Jay CHANG
@@ -78,14 +78,14 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 ## Marine Geology & Geosphysics
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
@@ -94,14 +94,14 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 ## Chemical Oceanography
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
@@ -110,14 +110,14 @@ Requires classes are compulsory. They represent **11 credits on the 24 credits**
 ## Physical Oceanography
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
 </details>
 
 <details>
-<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters </summary>
+<summary><span style="color:#1D5287">**Seminar Master - Year 1**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 4 credits (2 semesters) </summary>
 **Description**: Presentation of scientific paper by students
 
 **Instructor**: <span style="background-color: #FFFF00">PENDING</span>
