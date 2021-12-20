@@ -5,3 +5,38 @@ description: |
 ---
 
 <span style="background-color: #FFFF00">Description</span>
+
+## What is Master's theis
+
+A master’s thesis is a piece of original scholarship written under the direction of a faculty [advisor](http://www.oc.ntu.edu.tw/oceng/?page_id=24). A master’s thesis is similar to a doctoral dissertation, but it is generally shorter and more narrowly focused. As a rule of thumb, a master’s thesis should be publishable as a single article, though it might be longer than a typical article; a doctoral dissertation is generally equivalent to at least three articles. Students who chose to write a master’s  thesis often do so because they are interested in pursuing further research, for instance in a doctoral program in marine science or another related discipline, or as a researcher in a public agency.
+
+Like a good journal article, a master’s thesis will respond to a scientific question, and will bring new evidence or arguments to bear upon the topic. 
+
+
+## How Long Should it Be? How Long Does it Take? 
+
+A master’s thesis is generally 40-80 pages, not including the bibliography. However, the length will greatly vary according to the topic and the method of analysis, so the appropriate length will be determined by you and your committee. The research project is usually developed along your two years of master. The writing of the thesis  itself is usually concentrated on the last semester before the thesis defense. Some may take longer, but the thesis must be defended within four years of the beginning of your master.
+
+## Finding a Topic
+
+This is critically important. Students should think about possible topics at their application (research proposal). Keep an idea file where you jot
+down potential research ideas and your research project will be matured with your advisor along your fisrt semester.  Be on the look out for new publications that might help provide new insights into a topic, or for past research that might be productively replicated in other circumstances. 
+
+## Your Advisor and Your Committee 
+
+In order to write a master’s thesis you must find a faculty member who is willing to be your thesis [advisor](http://www.oc.ntu.edu.tw/oceng/?page_id=24). Faculty are not obliged to advise you but they are generally willing to do so for students who have clear ideas and who seem to have the necessary follow-through to successfully complete a thesis. Students most often wind up working with a faculty member who taught them for a course, but this is not necessarily the case. 
+
+A master’s committee consists of 3-5 faculty members including your advisor. Your faculty advisor can help you assemble this committee.At least one member must be from outside our institute. Your advisor will be your chief contact while you are writing the master’s thesis, but it can be useful to stay in touch with the other members of the committee along the preparation of your thesis especially so that they are aware when you are close to completion. When you have a polished draft that is approved by your faculty advisor, you will arrange to have an oral defense of the thesis. The usual result of a defense is that the thesis is approved pending some more or less minor changes. 
+
+When scheduling the defense, please remember to allow time for faculty members to read the thesis after you give it to them: they cannot necessarily drop everything to read a 50 page document if you give it to them only 1-2 days before the defense and to let them a minimum of two weeks to read your thesis is generally a good practice.
+
+## Some other formal requirements
+
+Follow the formatting requirements for Theses and Dissertations listed on the web site of [National Taiwan University Library](https://www.lib.ntu.edu.tw/en/node/1788). 
+
+<mark>You must maintain continuous enrollment while working on the master’s thesis.BREAK?</mark>
+
+Be sure to check the schedule for graduation so that you hold your oral defense in time to complete and submit your finished thesis.
+
+You can find out more about this on the university's Office of Academic Affairs web page:
+https://www.aca.ntu.edu.tw/w/acaEN/GAAD

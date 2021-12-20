@@ -21,10 +21,16 @@ IONTU is located at the northernmost part of the campus. It is only few hundred 
 
 ```{r, echo=F, fig.align = "center", fig.cap="Interactive map of IONTU's location"}
 library(leaflet)
+
+IONTU_Icon <- makeIcon(
+  iconUrl = "images/logo.png",
+  iconWidth = 50, iconHeight = 50,
+)
+
 leaflet() %>%
   addProviderTiles(providers$Stamen.Toner) %>%
   #addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=121.537338, lat=25.021295, popup="Institute of Oceanography")
+  addMarkers(lng=121.537338, lat=25.021295, icon = IONTU_Icon, popup="Institute of Oceanography")
 ```
 
 
@@ -43,7 +49,7 @@ knitr::include_graphics("images/IONTU_Building_AB.jpg")
 knitr::include_graphics("images/IONTU_CLASSROOM_AB.jpg")
 ```
 
-The institute maintains the 'Ocean Data Bank' the largest data base about marine envionment in Taiwan. IONTU manages its own research vessel 'New Ocean Researcher I' which is a ship of XX m long and XX tonnes equipped with scientific equipments such as a large ECA 800 Remotely Operated Vehicle. The ship is used for scientific research and education.
+The institute maintains the 'Ocean Data Bank' the largest data base about marine envionment in Taiwan. IONTU manages its own research vessel ['New Ocean Researcher I'](http://newor1.oc.ntu.edu.tw/equipmentNOR1.html) which is a ship of 66 m long and 2155 tonnes equipped with scientific equipments such as a large ECA 800 Remotely Operated Vehicle. The ship is used for scientific research and education.
 
 ## Divisions
 
