@@ -39,8 +39,6 @@ navbar:
       menu:
         - text: "Eligibiliy & application"
           href: application.html
-        - text: "Tuition & Fellowships"
-          href: tuition.html
     - text: "Useful Links"
       href: advices.html
 output:
