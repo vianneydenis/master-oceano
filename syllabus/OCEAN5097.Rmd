@@ -13,61 +13,64 @@ output: pdf_document
 
 ## References
 
-Dai CF, Horng S (2009a) Scleractinia Fauna of Taiwan. I. The Complex Group. National Taiwan University.
+Dai C.F., Horng S. (2009a) Scleractinia Fauna of Taiwan. I. The Complex Group. National Taiwan University.
 
-Dai CF, Horng S (2009) Scleractinia Fauna of Taiwan. II. The Robust Group. National Taiwan University.
+Dai C.F., Horng S. (2009) Scleractinia Fauna of Taiwan. II. The Robust Group. National Taiwan University.
 
-Denis V, Soto D, De Palmas S, Lin YTV, Benayahu Y, et al. (2019) Taiwan. In: Loya Y, Puglise KA, Bridge T (eds) Mesophotic coral ecosystems. Springer, Cham. pp 249-264. doi:[10.1007/978-3-319-92735-0_14](https://link.springer.com/chapter/10.1007/978-3-319-92735-0_14)
+Denis V., Soto D., De Palmas S., Lin Y.T.V., Benayahu Y., et al. (2019) Taiwan. In: Loya Y., Puglise K.A., Bridge T. (eds) Mesophotic coral ecosystems. Springer, Cham. pp 249-264. doi:[10.1007/978-3-319-92735-0_14](https://link.springer.com/chapter/10.1007/978-3-319-92735-0_14)
 
-Dubinsky Z, Stambler N (2011) Coral Reefs: An Ecosystem in Transition. Springer, Dordrecht,552p. doi:[10.1007/978-94-007-0114-4_1](https://link.springer.com/book/10.1007%2F978-94-007-0114-4)
+Dubinsky Z., Stambler N. (2011) Coral Reefs: An Ecosystem in Transition. Springer, Dordrecht,552p. doi:[10.1007/978-94-007-0114-4_1](https://link.springer.com/book/10.1007%2F978-94-007-0114-4)
+
+Sheppard C.R.C, Davy S.K., Pilling G.M., Graham N.A.J (2018) The Biology of Coral Reefs. Second Edition. Oxford University Press, 363 p. doi:[10.1093/oso/9780198787341.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198566359.001.0001/acprof-9780198566359)  
+
 
 ## Outline
 
-The rapid decline of coral reefs around the world motivates studies to better understand how these complex ecosystems will respond to future environmental changes. This course will make an up-to-date review on the knowledge of reef organisms and ecosystems, and the factors responsible for reef degradation.  Information will further serve to understand the population dynamics and resilience abilities observed on reefs throughout the world with a perspective of conservation. Many examples will be based on the present reef conditions around Taiwan. According to their availability, speakers may be invited to illustrate a particular topic.
+The rapid decline of coral reefs around the world motivates research to better understand how these ecosystems will look tomorrow under climate change. This course will make an up-to-date review of the knowledge of reef organisms and ecosystems, and it will emphasize the contemporary factors of reef degradation affecting population dynamics. Elements supporting the resilience of these ecosystems will be introduced together with perspectives in terms of reef management. Overall, through the lectures, the students will be provided with an up-to-date understanding of the coral reef crisis and the immediate actions to take for the long-term conservation of these fragile ecosystems. Many examples will be based on reefs in Taiwan, and speakers may be invited to illustrate specific topics.
 
 
-This course is an introduction to coral reefs and only requires basic knowledge in marine life, biology, and ecology Few classes about coral physiology could be a bit more challenging, but overall a strong curiosity about coral reefs is the most important to enjoy this course.
+This course is an introduction to coral reefs and requires basic knowledge in marine life, biology, and ecology Few classes about coral physiology could be a bit more challenging, but overall a strong curiosity about coral reefs is the most important to enjoy this course.
 
 
 ## Objectives
 
-+ Basic knowledge of reef organisms and coral ecosystem
++ Basic knowledge of reef organisms and coral ecosystems
 + Highlight research priority in the context of global changes
 + Implication for reef management and conservation
 
 
 ## Schedule
 
-Subject to changes.
+Topics subject to changes.
 
 Week|Content|
 ----|-------|
-1|Introduction
+1|Introduction to the course
 2|History and future challenges in coral research
 3|The paleoecology and distribution of coral reefs
-4|Coral taxonomy and evolution
-5|Anatomy and biology of scleractinian corals
-6|The photosynthesis in zooxanthellate corals
+4|Scleractinian coral systematics
+5|Anatomy and biology of scleractinan corals
+6|The photosynthesis of zooxanthellate corals
 7|Coral calcification: from cells to reefs, response to ocean acidification
-8|Coral bleaching: causes and consequences
-9|Presentation papers
-10|Coral reef algae: biology, taxonomy, diversity
-11|Invertebrates and their roles in coral reef ecosystems 
-12|Reef fish biology and ecology
-13|The impact of global changes on coral reef ecosystems
-14|Acclimatization and adaptation of reef corals
-15|Resilience of coral reefs and its implications for reef management
-16|Role of MPA for the conservation of coral reef ecosystem
-17|Pathology and etiology of disease in reef corals
-18|Final - essay
+8|Coral reef algae: biology, taxonomy, diversity
+9|Invertebrates and their roles in coral reef ecosystems
+10|Reef fish biology and ecology
+11|The impact of global changes on coral reef ecosystems
+12|Acclimatization and adaptation of reef corals
+13|The resilience of coral reef ecosystems
+14|Role of MPA for the conservation of coral reef ecosystem
+15|Presentation
+16|Final Exam
+17| Methods for ecological monitoring of coral reefs [Extra 1]
+18| Methods for laboratory analysis of reef corals [Extra 2]
 
 ## Evaluation
 
-Presence in class is compulsory. Apply online ([myNTU](https://my.ntu.edu.tw/)) for leaves of absence.
+Presence in class is compulsory. You will apply online ([myNTU](https://my.ntu.edu.tw/)) for leaves of absence.
 
-**20%** Participation in class - Quiz (kahoot)
-**30%** Midterm presentation - assigned reading
-**50%** Final essay - exam
+**20%** Participation: Presence in class - quiz (kahoot)
+**30%** Presentation: Scientific presentation (ppt) / research challenge
+**50%** Final exam:  Essay on current issue
 
 
 
