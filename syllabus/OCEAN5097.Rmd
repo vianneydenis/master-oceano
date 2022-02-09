@@ -68,9 +68,10 @@ Week|Content|
 
 Presence in class is compulsory. You will apply online ([myNTU](https://my.ntu.edu.tw/)) for leaves of absence.
 
-**20%** Participation: Presence in class - quiz (kahoot)
-**30%** Presentation: Scientific presentation (ppt) / research challenge
-**50%** Final exam:  Essay on current issue
+**10%** Participation: Presence in class, questions, comments, etc.
+**20%** Quiz: Preparation + answers to the quiz
+**30%** Presentation: Scientific presentation (ppt) / research challenge 
+**40%** Final exam: Essay on current issue 
 
 
 
