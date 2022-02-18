@@ -48,14 +48,6 @@ description: |
 **Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
 </details>
 
-<details>
-<summary><span style="color:#1D5287">**Fundamentals of Oceanic Statistics**</span> ([<span style="background-color: #FFFF00">OCEAN XXXX</span>]()) - 2 credits</summary>
-**Description**: <span style="background-color: #FFFF00"> XXXX</span>
-
-**Instructor**: <span style="background-color: #FFFF00"> XXXX</span>
-</details>
-
-
 ## Marine Biology and Fisheries
 
 
